@@ -1,0 +1,16 @@
+[
+  {"type":"directory","name":".","contents":[
+    {"type":"file","name":"TA-num-196-preparando-maquetas.jpg"},
+    {"type":"file","name":"TA-num-201-pintando-maquetas.jpg"},
+    {"type":"file","name":"TA-num-211-alambre-acero.jpg"},
+    {"type":"file","name":"TA-num-211-corrigiendo-trompa.jpg"},
+    {"type":"file","name":"TA-num-213-fuselajes.jpg"},
+    {"type":"file","name":"TA-num-218-amortiguador-tren-aterrizaje.jpg"},
+    {"type":"file","name":"TA-num-219-materiales-herramientas.jpg"},
+    {"type":"file","name":"TA-num-220-costillas-armado-alas.jpg"},
+    {"type":"file","name":"TA-num-250-apariencia-metalica.jpg"},
+    {"type":"file","name":"TA-num-344-construccion-alas.jpg"}
+  ]}
+,
+  {"type":"report","directories":1,"files":10}
+]

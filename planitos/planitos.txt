@@ -1,0 +1,28 @@
+Ficheros JPG
+
+Formato nombre fichero:
+
+revista:
+CAT-num-000-numplano-nombre-planito.jpg
+suple:
+CAT-suple-00-numplano-nombre-planito.jpg
+
+Categorías:
+
+ANC -> aeromodelos no convencionales
+ARV -> artefacto volador
+RC -> avion radio control
+BAR -> barriletes
+BT -> botes
+COM -> computación
+ELC -> electrónica
+GL -> globos
+MAQ -> maquetas
+MG -> motor a goma
+MGI -> motor a goma interior
+PLC -> planeador cartulina
+PL -> planeadores
+TA -> trucos aeromodelismo
+UC -> u-control
+CHT -> cohetes
+OTR -> otros

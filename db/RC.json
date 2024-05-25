@@ -1,0 +1,13 @@
+[
+  {"type":"directory","name":".","contents":[
+    {"type":"file","name":"RC-num-183-1-mb1-trainer.jpg"},
+    {"type":"file","name":"RC-num-183-2-mb1-trainer.jpg"},
+    {"type":"file","name":"RC-num-183-3-mb1-trainer.jpg"},
+    {"type":"file","name":"RC-num-226-lanzando-planeador.jpg"},
+    {"type":"file","name":"RC-num-236-1-pilotando-rc.jpg"},
+    {"type":"file","name":"RC-num-237-2-pilotando-rc.jpg"},
+    {"type":"file","name":"RC-num-239-3-pilotando-rc.jpg"}
+  ]}
+,
+  {"type":"report","directories":1,"files":7}
+]

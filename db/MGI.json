@@ -1,0 +1,16 @@
+[
+  {"type":"directory","name":".","contents":[
+    {"type":"file","name":"MGI-317-ganso.jpg"},
+    {"type":"file","name":"MGI-319-t28-pepin-cascaron.jpg"},
+    {"type":"file","name":"MGI-num-191-avioncito-bajo-techo.jpg"},
+    {"type":"file","name":"MGI-num-215-centrando.jpg"},
+    {"type":"file","name":"MGI-num-260-ornitoptero.jpg"},
+    {"type":"file","name":"MGI-num-293-ia-22-dl.jpg"},
+    {"type":"file","name":"MGI-num-295-zapiroco.jpg"},
+    {"type":"file","name":"MGI-num-296-el-delicao.jpg"},
+    {"type":"file","name":"MGI-num-300-lupin-300.jpg"},
+    {"type":"file","name":"MGI-num-307-gatt-y-flynn.jpg"}
+  ]}
+,
+  {"type":"report","directories":1,"files":10}
+]
