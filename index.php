@@ -139,7 +139,7 @@ if ($_SERVER["REQUEST_METHOD"] === "POST") {
     foreach ($dir as $file) {
     
       $thumbnail = str_replace([".jpg"], "-mini.jpg", $file->name);
-      echo "<a class='linkimg mb-3 mx-auto' href='planitos/", $file->name ,"' download><img class='img-thumbnail img-fluid mx-auto d-block' src='mini/", $thumbnail ,"'><div class='overlay'><span>🡇</span></div></a>";
+      echo "<a class='linkimg mb-3 mx-auto' href='planitos/", $file->name ,"' download><img class='img-thumbnail img-fluid mx-auto d-block' src='mini/", $thumbnail ,"'><div class='overlay'><span>&darr;</span></div></a>";
 
     }
 
@@ -156,7 +156,7 @@ if ($_SERVER["REQUEST_METHOD"] === "POST") {
         if (searchQuery($search, $file)) {
 
           $thumbnail = str_replace([".jpg"], "-mini.jpg", $file->name);
-          echo "<a class='linkimg mb-3 mx-auto' href='planitos/", $file->name ,"' download><img class='img-thumbnail img-fluid d-block' src='mini/", $thumbnail ,"'><div class='overlay'><span>🡇</span></div></a>";
+          echo "<a class='linkimg mb-3 mx-auto' href='planitos/", $file->name ,"' download><img class='img-thumbnail img-fluid d-block' src='mini/", $thumbnail ,"'><div class='overlay'><span>&darr;</span></div></a>";
   
         }
       }
