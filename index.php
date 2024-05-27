@@ -60,6 +60,8 @@ You should have received a copy of the GNU General Public License along with thi
     <button type="submit" name="cat" value="BT" class="btn btn-link btn-sm">Botes</button>
     <button type="submit" name="cat" value="COM" class="btn btn-link btn-sm">Computación</button>
     <button type="submit" name="cat" value="ELC" class="btn btn-link btn-sm">Electrónica</button>
+    <button type="submit" name="cat" value="RIN" class="btn btn-link btn-sm">Rincón Lectores</button>
+    <button type="submit" name="cat" value="OTR" class="btn btn-link btn-sm">Otros</button>
   </form>
   </div>
 

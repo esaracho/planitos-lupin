@@ -17,3 +17,5 @@ ls | grep -w "^PL" | tree --fromfile -J > ../json/PL.json
 ls | grep "^TA" | tree --fromfile -J > ../json/TA.json
 ls | grep "^UC" | tree --fromfile -J > ../json/UC.json
 ls | grep "^CHT" | tree --fromfile -J > ../json/CHT.json
+ls | grep "^OTR" | tree --fromfile -J > ../json/OTR.json
+ls | grep "^RIN" | tree --fromfile -J > ../json/RIN.json

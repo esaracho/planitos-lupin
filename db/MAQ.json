@@ -37,8 +37,11 @@
     {"type":"file","name":"MAQ-num-282-2-nieuport-xvii.jpg"},
     {"type":"file","name":"MAQ-num-282-emb312-tucano.jpg"},
     {"type":"file","name":"MAQ-num-283-saab-j35-draken.jpg"},
-    {"type":"file","name":"MAQ-num-302-autogiro-la-cierva.jpg"}
+    {"type":"file","name":"MAQ-num-302-autogiro-la-cierva.jpg"},
+    {"type":"file","name":"MAQ-num-349-rumpler-taube-paloma-1.jpg"},
+    {"type":"file","name":"MAQ-num-349-rumpler-taube-paloma-2.jpg"},
+    {"type":"file","name":"MAQ-num-349-rumpler-taube-paloma-3.jpg"}
   ]}
 ,
-  {"type":"report","directories":1,"files":38}
+  {"type":"report","directories":1,"files":41}
 ]

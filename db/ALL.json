@@ -71,7 +71,12 @@
     {"type":"file","name":"CHT-num-177-concorde.jpg"},
     {"type":"file","name":"CHT-num-187-cohete-planeador-halcon.jpg"},
     {"type":"file","name":"COM-num-235-microcomputacion-1.jpg"},
+    {"type":"file","name":"COM-num-349-basic-pc.jpg"},
     {"type":"file","name":"ELC-num-269-baliza-para-globos.jpg"},
+    {"type":"file","name":"ELC-num-349-captador-selectivo-sonido-1.jpg"},
+    {"type":"file","name":"ELC-num-349-captador-selectivo-sonido-2.jpg"},
+    {"type":"file","name":"ELC-num-349-puntas-logicas-1.jpg"},
+    {"type":"file","name":"ELC-num-349-puntas-logicas-2.jpg"},
     {"type":"file","name":"GL-num-257-globo-aire-caliente.jpg"},
     {"type":"file","name":"MAQ-num-117-maqueta-avion-de-lupin.jpg"},
     {"type":"file","name":"MAQ-num-119-morane-saulnier.jpg"},
@@ -111,6 +116,9 @@
     {"type":"file","name":"MAQ-num-282-emb312-tucano.jpg"},
     {"type":"file","name":"MAQ-num-283-saab-j35-draken.jpg"},
     {"type":"file","name":"MAQ-num-302-autogiro-la-cierva.jpg"},
+    {"type":"file","name":"MAQ-num-349-rumpler-taube-paloma-1.jpg"},
+    {"type":"file","name":"MAQ-num-349-rumpler-taube-paloma-2.jpg"},
+    {"type":"file","name":"MAQ-num-349-rumpler-taube-paloma-3.jpg"},
     {"type":"file","name":"MG-319-1-buddy-holly.jpg"},
     {"type":"file","name":"MG-319-2-buddy-holly.jpg"},
     {"type":"file","name":"MG-321-gordi.jpg"},
@@ -155,6 +163,8 @@
     {"type":"file","name":"MG-num-87-avioneta.jpg"},
     {"type":"file","name":"MG-num-93-palito.jpg"},
     {"type":"file","name":"MG-suple-78-avion-racer.jpg"},
+    {"type":"file","name":"OTR-num-349-veletas-mangas-latitas-gaseosas-1.jpg"},
+    {"type":"file","name":"OTR-num-349-veletas-mangas-latitas-gaseosas-2.jpg"},
     {"type":"file","name":"PLC-num-101-hidroavion.jpg"},
     {"type":"file","name":"PLC-num-137-lupin-volador.jpg"},
     {"type":"file","name":"PLC-num-314-pou-papier.jpg"},
@@ -217,6 +227,7 @@
     {"type":"file","name":"RC-num-236-1-pilotando-rc.jpg"},
     {"type":"file","name":"RC-num-237-2-pilotando-rc.jpg"},
     {"type":"file","name":"RC-num-239-3-pilotando-rc.jpg"},
+    {"type":"file","name":"RIN-num-349-rincon-lectores.jpg"},
     {"type":"file","name":"TA-num-196-preparando-maquetas.jpg"},
     {"type":"file","name":"TA-num-201-pintando-maquetas.jpg"},
     {"type":"file","name":"TA-num-211-alambre-acero.jpg"},
@@ -242,5 +253,5 @@
     {"type":"file","name":"UC-suple-79-primer-vuelo-ucontrol.jpg"}
   ]}
 ,
-  {"type":"report","directories":1,"files":240}
+  {"type":"report","directories":1,"files":251}
 ]

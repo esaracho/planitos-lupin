@@ -1,7 +1,11 @@
 [
   {"type":"directory","name":".","contents":[
-    {"type":"file","name":"ELC-num-269-baliza-para-globos.jpg"}
+    {"type":"file","name":"ELC-num-269-baliza-para-globos.jpg"},
+    {"type":"file","name":"ELC-num-349-captador-selectivo-sonido-1.jpg"},
+    {"type":"file","name":"ELC-num-349-captador-selectivo-sonido-2.jpg"},
+    {"type":"file","name":"ELC-num-349-puntas-logicas-1.jpg"},
+    {"type":"file","name":"ELC-num-349-puntas-logicas-2.jpg"}
   ]}
 ,
-  {"type":"report","directories":1,"files":1}
+  {"type":"report","directories":1,"files":5}
 ]

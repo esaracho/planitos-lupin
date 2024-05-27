@@ -1,7 +1,8 @@
 [
   {"type":"directory","name":".","contents":[
-    {"type":"file","name":"COM-num-235-microcomputacion-1.jpg"}
+    {"type":"file","name":"COM-num-235-microcomputacion-1.jpg"},
+    {"type":"file","name":"COM-num-349-basic-pc.jpg"}
   ]}
 ,
-  {"type":"report","directories":1,"files":1}
+  {"type":"report","directories":1,"files":2}
 ]
