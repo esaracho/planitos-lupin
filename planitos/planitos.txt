@@ -26,3 +26,7 @@ TA -> trucos aeromodelismo
 UC -> u-control
 CHT -> cohetes
 OTR -> otros
+RIN -> rincon lectores
+CIC -> ciclismo
+FOT -> fotografía
+AST -> astronomía

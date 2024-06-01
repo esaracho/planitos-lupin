@@ -1,12 +1,11 @@
-.logo_cont {
+.home {
+    display: block;
     width: fit-content;
-    margin: auto;
-}   
+    margin: 0 auto;
+}
 
 .logo {
-    /* background-color: #d17539; */
     display: block;
-    /* width: 100%; */
     max-width: 300px;
     height: auto;
 }
@@ -14,6 +13,16 @@
 h5 {
     position: relative;
     bottom: 12px;
+}
+
+.novedades {
+
+    max-width: 500px;
+    margin: 0 auto;
+    padding: 3px;
+    border-radius: var(--bs-border-radius);
+    background-color: #cacaca;
+    color: #212529;
 }
 
 
@@ -34,8 +43,6 @@ main {
 
 .overlay {
     opacity: 0;
-    /* display:none;
-    /* background-color:rgb(15, 59, 59); */
     transition: opacity 0.17s ease;
 }
 
@@ -68,17 +75,8 @@ main {
     position:absolute;
     top:0;
     left:0;
-    display:inline-block; /*block?*/
+    display:inline-block;
     box-sizing:border-box;
-    /* transition: background-color 2s ease-out; */
-    
-  /*   display:inline; */
-    /* text-align:center; */
-   /*  vertical-align:middle; */
-    
-
-    /* All other styling - see example */
-
 }
 
 
@@ -91,65 +89,14 @@ footer {
 footer div {
 
     padding-top: 3vh;
-   /*  margin-bottom: 50px; */
     color:#212529;
-    /* height: 4.5rem; */
 
 }
 
 .fondo {
-   /*  border-style: solid;
-    border-width: 4px;
-    padding: 3px; */
+   
     margin-top: 30px;
     width: 125px;
     height: auto;
 }
-
-/* 
-.linkimg:hover {
-
-    border-width: 10px;
-    border-color: blueviolet;
-
-} */
-/* .planitos {
-    
-  display: flex;
-  flex-wrap: wrap;
-  gap: 10px;  
-
-}
-
-.planitos img {
-    object-fit: cover;
-    width: 100%;
-    height: auto;
-    vertical-align: middle;
-    border-radius: 5px;
-} */
-
-/* .planitos div {
-
-    height: 300px;
-    cursor: pointer;
-    position: relative;
-
-} */
-
-/* .img:hover .overlay {
-    display:inline-block;
-}
-
-a:visited {
-    color: #6f42c1;
-  }
- */
-/* header {
-    margin-top: 3%;
-} */
-
-/* body {
-    background-color: #fefefe;
-} */
 

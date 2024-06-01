@@ -20,15 +20,16 @@ You should have received a copy of the GNU General Public License along with thi
 <body>
 <!-- Titulo y descripcion-->
   <header class="container-md mt-5">
-  <a href="https://www.losplanitos.com.ar/" class="text-reset text-decoration-none"><div class="logo_cont">
+  <a href="https://www.losplanitos.com.ar/" class="text-reset text-decoration-none home">
   <?php
     $colorArr = array("#ffdb39", "#209cbe", "#2a6994", "#ea523d", "#507448", "#a63b52", "#d17539");
     $color = array_rand($colorArr, 1);
       echo "<img class='logo' style='background-color:", $colorArr[$color] ,";' src='./logo-lupin.svg' alt='lupin'>"
   ?>
       <h5 class="text-end fw-bold">LOS PLANITOS</h5>
-    </div></a>
+    </a>
     <p class="text-center fw-light">Un archivo de "los planitos" publicados en la <a class="link-opacity-50-hover ms-1 link-dark" title="Revista Lúpin en AHiRA" href="https://ahira.com.ar/revistas/lupin/" target="_blank"><b>Revista Lúpin</b></a></p>
+    <p class="text-center novedades">Novedades: Se agregó lo publicado en los números 300 a 305 y 349. Quedan en revisión dos planos de los números 300 y 303.</p>
   </header>
 
 <!-- Formulario busqueda -->
@@ -60,8 +61,11 @@ You should have received a copy of the GNU General Public License along with thi
     <button type="submit" name="cat" value="BT" class="btn btn-link btn-sm">Botes</button>
     <button type="submit" name="cat" value="COM" class="btn btn-link btn-sm">Computación</button>
     <button type="submit" name="cat" value="ELC" class="btn btn-link btn-sm">Electrónica</button>
-    <button type="submit" name="cat" value="RIN" class="btn btn-link btn-sm">Rincón Lectores</button>
+    <button type="submit" name="cat" value="CIC" class="btn btn-link btn-sm">Ciclismo</button>
+    <button type="submit" name="cat" value="FOT" class="btn btn-link btn-sm">Fotografía</button>
+    <button type="submit" name="cat" value="AST" class="btn btn-link btn-sm">Astronomía</button>
     <button type="submit" name="cat" value="OTR" class="btn btn-link btn-sm">Otros</button>
+    <button type="submit" name="cat" value="RIN" class="btn btn-link btn-sm">Rincón Lectores</button>
   </form>
   </div>
 
@@ -174,7 +178,7 @@ if ($_SERVER["REQUEST_METHOD"] === "POST") {
       <div class="border-top text-center">
         <p class="fs-6 fw-light"><b>¿Problemas?</b> <a class="link-opacity-50-hover ms-1 link-dark" href="https://github.com/esaracho/planitos-lupin/issues" target="_blank">GitHub</a><a class="link-opacity-50-hover ms-2 link-dark" href="mailto:losplanitos@proton.me">eMail</a></p>
         <p class="fs-6 fw-light">Para <b>colaborar</b>, enviar el planito con número de Lúpin y en buena calidad a <a class="link-opacity-50-hover ms-1 link-dark" href="mailto:losplanitos@proton.me">eMail</a></p>
-        <p class="fs-6 fw-light">Los planitos fueron extraidos del blog <a class="link-opacity-50-hover ms-1 link-dark" href="https://losplanitosdelupin.wordpress.com/" target="_blank">Los planitos de Lúpin</a></p>
+        <p class="fs-6 fw-light">Algunos planitos fueron extraidos del blog <a class="link-opacity-50-hover ms-1 link-dark" href="https://losplanitosdelupin.wordpress.com/" target="_blank">Los planitos de Lúpin</a></p>
         <p class="fs-6 fw-light">Dedicado con &#10084; a G.D.S. y a todos los que colaboraron.</p>
         <?php
           $cuadrito = rand(1, 7);
