@@ -133,6 +133,12 @@ function searchQuery($search, $file) : bool {
 }
 
 if ($_SERVER["REQUEST_METHOD"] === "POST") {
+
+
+  //Se guarda lo ingresado en la búsqueda
+  $queryContent = $_POST["query"] . "\n";
+  $logQueryFile = "/busquedas-log.txt";
+  file_put_contents(__DIR__ . $logQueryFile, $queryContent , FILE_APPEND);
  
   if (array_key_exists("cat", $_POST)) {
 
