@@ -11,7 +11,8 @@ You should have received a copy of the GNU General Public License along with thi
   <link rel="icon" type="image/x-icon" href="favicon.ico">
 	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
   <meta name="description" content='Archivo de "los planitos" publicados en la revista Lúpin'>
-  <meta name="keywords" content="Planos, Planitos, Aeromodelismo, Revista Lúpin, Maquetas, Barriletes, Electrónica, Computación, Archivo">
+  <meta name="keywords" content="Planos, Planitos, Aeromodelismo, Revista Lúpin, Maquetas, Barriletes, Electrónica, Computación, Archivo, Scoutismo, Radio Control, 
+  U Control, Globos, Ciclismo, Fotografía, Astronomía">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="css/custom.css">
   <link rel="stylesheet" href="css/custom-lupin.css">
@@ -29,7 +30,7 @@ You should have received a copy of the GNU General Public License along with thi
       <h5 class="text-end fw-bold">LOS PLANITOS</h5>
     </a>
     <p class="text-center fw-light">Un archivo de "los planitos" publicados en la <a class="link-opacity-50-hover ms-1 link-dark" title="Revista Lúpin en AHiRA" href="https://ahira.com.ar/revistas/lupin/" target="_blank"><b>Revista Lúpin</b></a></p>
-    <p class="text-center novedades">Novedades: Se agregó lo publicado en los números 300 a 305 y 349. Quedan en revisión dos planos de los números 300 y 303.</p>
+    <p class="text-center novedades">Novedades: Se agregó lo publicado en los números 100 a 105 y 200 a 205. Se agrega categoría Scoutismo.</p>
   </header>
 
 <!-- Formulario busqueda -->
@@ -64,6 +65,7 @@ You should have received a copy of the GNU General Public License along with thi
     <button type="submit" name="cat" value="CIC" class="btn btn-link btn-sm">Ciclismo</button>
     <button type="submit" name="cat" value="FOT" class="btn btn-link btn-sm">Fotografía</button>
     <button type="submit" name="cat" value="AST" class="btn btn-link btn-sm">Astronomía</button>
+    <button type="submit" name="cat" value="SCT" class="btn btn-link btn-sm">Scoutismo</button>
     <button type="submit" name="cat" value="OTR" class="btn btn-link btn-sm">Otros</button>
     <button type="submit" name="cat" value="RIN" class="btn btn-link btn-sm">Rincón Lectores</button>
   </form>
