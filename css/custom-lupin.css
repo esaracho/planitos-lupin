@@ -1,3 +1,25 @@
+
+#cuerpo {
+    position: relative;
+    padding: 0px;
+    min-height: 100vh;
+    /* box-shadow: 0px 0px 60px 2px #cacaca; */
+    box-shadow: inset 15px 0px 50px 1px #edeed6;
+    
+}
+
+/* #encabezado, main, footer {
+    background-color: #fefefe;
+}
+ */
+#tira {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 200px;
+    height: auto;
+}
+
 .home {
     display: block;
     width: fit-content;
@@ -82,7 +104,7 @@ main {
 
 footer {
 
-    margin-bottom: 15vh;
+    padding-bottom: 5vh;
 
 }
 
@@ -100,3 +122,30 @@ footer div {
     height: auto;
 }
 
+/* @media screen and (min-width: 650px) {
+
+    #tira {
+        width: 275px;
+    }
+  
+  } */
+  
+  /* Monitor de 1024px a 1440px */
+  
+  @media screen and (min-width: 800px) {
+  
+    #tira {
+        width: 275px;
+    }
+  
+  }
+  
+  /* Monitor a partir de 1441px */
+  
+  @media screen and (min-width: 1200px) {
+  
+    #tira {
+        width: 300px;
+    }
+  
+  }

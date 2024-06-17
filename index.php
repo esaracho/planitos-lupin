@@ -20,7 +20,11 @@ You should have received a copy of the GNU General Public License along with thi
 
 <body>
 <!-- Titulo y descripcion-->
-  <header class="container-md mt-5">
+<div id="cuerpo" class="container-md pt-5">
+  <a href="https://www.losplanitos.com.ar/" class="text-reset text-decoration-none home">
+    <img id='tira' src='./tira-amarilla.gif'>
+  </a>
+  <header class="px-3">
   <a href="https://www.losplanitos.com.ar/" class="text-reset text-decoration-none home">
   <?php
     $colorArr = array("#ffdb39", "#209cbe", "#2a6994", "#ea523d", "#507448", "#a63b52", "#d17539");
@@ -30,11 +34,11 @@ You should have received a copy of the GNU General Public License along with thi
       <h5 class="text-end fw-bold">LOS PLANITOS</h5>
     </a>
     <p class="text-center fw-light">Un archivo de "los planitos" publicados en la <a class="link-opacity-50-hover ms-1 link-dark" title="Revista Lúpin en AHiRA" href="https://ahira.com.ar/revistas/lupin/" target="_blank"><b>Revista Lúpin</b></a></p>
-    <p class="text-center novedades">Novedades: Se agregó lo publicado en los números 100 a 105 y 200 a 205. Se agrega categoría Scoutismo.</p>
+    <p class="text-center novedades">Novedades: Se agregó lo publicado en los números 206 a 211 y 350 a 355.</p>
   </header>
 
 <!-- Formulario busqueda -->
-  <search class="container-md mt-5">
+  <search class="px-3 pt-5">
     <form name="formlink" method="post" class="form-inline" action="index.php" id="busqueda">
       <div class="input-group">
         <input type="text" class="form-control" name="query" placeholder="Buscar planito" required autofocus>
@@ -44,7 +48,7 @@ You should have received a copy of the GNU General Public License along with thi
   </search>
 
 <!-- Categorías -->
-  <div class="container-md mt-4 text-center">
+  <div class="px-3 pt-4 text-center">
   <form name="categorias" method="post" action="index.php" id="categorias">
     <button type="submit" name="cat" value="MAQ" class="btn btn-link btn-sm">Maquetas</button>
     <button type="submit" name="cat" value="BAR" class="btn btn-link btn-sm">Barriletes</button>
@@ -72,7 +76,7 @@ You should have received a copy of the GNU General Public License along with thi
   </div>
 
 <!-- Resultados -->
-  <main class="container-md mt-5 d-flex flex-column align-self-center">
+  <main class="px-3 pt-5 d-flex flex-column align-self-center">
       
 <?php
 
@@ -182,19 +186,16 @@ if ($_SERVER["REQUEST_METHOD"] === "POST") {
 ?>
 </main>
 
-  <footer class="container-md mt-5">
+  <footer class="px-3 pt-5">
       <div class="border-top text-center">
         <p class="fs-6 fw-light"><b>¿Problemas?</b> <a class="link-opacity-50-hover ms-1 link-dark" href="https://github.com/esaracho/planitos-lupin/issues" target="_blank">GitHub</a><a class="link-opacity-50-hover ms-2 link-dark" href="mailto:losplanitos@proton.me">eMail</a></p>
         <p class="fs-6 fw-light">Para <b>colaborar</b>, enviar el planito con número de Lúpin y en buena calidad a <a class="link-opacity-50-hover ms-1 link-dark" href="mailto:losplanitos@proton.me">eMail</a></p>
         <p class="fs-6 fw-light">Algunos planitos fueron extraidos del blog <a class="link-opacity-50-hover ms-1 link-dark" href="https://losplanitosdelupin.wordpress.com/" target="_blank">Los planitos de Lúpin</a></p>
         <p class="fs-6 fw-light">Dedicado con &#10084; a G.D.S. y a todos los que colaboraron.</p>
-        <?php
-          $cuadrito = rand(1, 7);
-          echo "<img class='fondo' src='fondo/", $cuadrito,".jpg' >"
-        ?>
-    </div>
+        <img class="fondo" src="./fin.jpg">
+      </div>
   </footer>
-
+</div>
 </body>
 
 </html>
