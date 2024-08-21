@@ -69,6 +69,7 @@ You should have received a copy of the GNU General Public License along with thi
     <button type="submit" name="cat" value="FOT" class="btn btn-link btn-sm">Fotografía</button>
     <button type="submit" name="cat" value="AST" class="btn btn-link btn-sm">Astronomía</button>
     <button type="submit" name="cat" value="SCT" class="btn btn-link btn-sm">Scoutismo</button>
+    <button type="submit" name="cat" value="DIB" class="btn btn-link btn-sm">Dibujo</button>
     <button type="submit" name="cat" value="OTR" class="btn btn-link btn-sm">Otros</button>
     <button type="submit" name="cat" value="RIN" class="btn btn-link btn-sm">Rincón Lectores</button>
   </form>
@@ -195,7 +196,7 @@ if ($_SERVER["REQUEST_METHOD"] === "POST") {
       <div class="border-top text-center">
         <p class="fs-6 fw-light"><b>¿Problemas?</b> <a class="link-opacity-50-hover ms-1 link-dark" href="https://github.com/esaracho/planitos-lupin/issues" target="_blank">GitHub</a><a class="link-opacity-50-hover ms-2 link-dark" href="mailto:losplanitos@proton.me">eMail</a></p>
         <p class="fs-6 fw-light">Algunos planitos fueron extraidos del blog <a class="link-opacity-50-hover ms-1 link-dark" href="https://losplanitosdelupin.wordpress.com/" target="_blank">Los planitos de Lúpin</a></p>
-        <p class="fs-6 fw-light">Planitos incluidos en los números: 100-105 / 150-155 / 200-205 / 206-211 / 250-259 / 300-305 / 349-355</p>
+        <p class="fs-6 fw-light">Planitos incluidos en los números: 100-105 / 150-155 / 200-211 / 220-259 / 300-305 / 349-355</p>
         <p class="fs-6 fw-light">Dedicado con &#10084; a G.D.S. y a todos los que colaboraron.</p>
         <img class="fondo" src="./fin.jpg">
       </div>
