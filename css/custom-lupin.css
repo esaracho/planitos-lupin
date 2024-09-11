@@ -38,6 +38,13 @@ h5 {
     bottom: 12px;
 }
 
+button div {
+
+    transform: rotate(-45deg);
+    font-size: 1.2em;
+
+}
+
 main {
 
     min-height: 10vh;
@@ -91,6 +98,41 @@ main {
     box-sizing:border-box;
 }
 
+/*estilos paginador*/
+
+.paginador {
+
+    margin-top: 5vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 20px;
+    align-items: center;
+}
+
+.paginador a {
+
+    text-decoration: none;
+    color: #000;
+    font-size: 1.7rem;
+}
+
+.paginador a:hover {
+
+    text-decoration: underline;
+    opacity: 0.5;
+
+}
+
+.disabled {
+
+    pointer-events: none;
+    opacity: 0.5;
+
+}
+
+
+/*estilos footer*/
 
 footer {
 

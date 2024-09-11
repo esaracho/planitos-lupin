@@ -41,7 +41,8 @@ You should have received a copy of the GNU General Public License along with thi
     <form name="formlink" method="GET" class="form-inline" action="index.php" id="busqueda">
       <div class="input-group">
         <input type="text" class="form-control" name="query" placeholder="Buscar planito" required autofocus>
-        <input class="btn btn-dark" type="submit" value="&hearts;">
+        <!-- <input class="btn btn-dark" type="submit" value="&hearts;"> -->
+         <button type="submit" class="btn btn-dark"><div>&#9906;</div></button>
       </div>
     </form>
   </search>
@@ -79,6 +80,11 @@ You should have received a copy of the GNU General Public License along with thi
   <main class="px-3 pt-5 d-flex flex-column align-self-center">
       
 <?php
+
+require_once 'paginador.class.php';
+
+//Límite de resultados por página
+$limit = 10;
 
 function getQuery($q) : string {
 
@@ -138,55 +144,23 @@ function searchQuery($search, $file) : bool {
 
 }
 
-if ($_SERVER["REQUEST_METHOD"] === "GET") {
-
+if($_GET) {
 
   //Se guarda lo ingresado en la búsqueda(log)
-  /* $queryString = date(DATE_RFC1123) . " " . $_GET["query"] . "\n";
+/*   $queryString = date(DATE_RFC1123) . " " . $_GET["query"] . "\n";
   $logQueryFile = "/busquedas-log.txt";
   file_put_contents(__DIR__ . $logQueryFile, $queryString , FILE_APPEND); */
+  
+  $Paginador  = new Paginador( $_GET, $limit );
+  $links = $Paginador->getData();
 
-  $noResults = true;
- 
-  if (array_key_exists("cat", $_GET)) {
-
-    $path = "db/" . $_GET["cat"] . ".json";
-    $data = file_get_contents($path);
-    $json = json_decode($data);
-    $dir = [...$json[0]->contents];
-    $noResults = false;
-
-    foreach ($dir as $file) {
+  foreach ($links as $link) {
     
-      $thumbnail = str_replace([".jpg"], "-mini.jpg", $file->name);
-      echo "<a class='linkimg mb-3 mx-auto' href='planitos/", $file->name ,"' download><img class='img-thumbnail img-fluid mx-auto d-block' src='mini/", $thumbnail ,"'><div class='overlay'><span>&darr;</span></div></a>";
-
-    }
-
-
-  } elseif (array_key_exists("query", $_GET)) {
-
-      $search = getQuery($_GET["query"]);
-      $data = file_get_contents("db/ALL.json");
-      $json = json_decode($data);
-      $dir = [...$json[0]->contents];
-      
-      foreach ($dir as $file) {
-
-        if (searchQuery($search, $file)) {
-
-          $noResults = false;
-          $thumbnail = str_replace([".jpg"], "-mini.jpg", $file->name);
-          echo "<a class='linkimg mb-3 mx-auto' href='planitos/", $file->name ,"' download><img class='img-thumbnail img-fluid d-block' src='mini/", $thumbnail ,"'><div class='overlay'><span>&darr;</span></div></a>";
-  
-        }
-      }
+    echo $link;
 
   }
-  
-  if ($noResults) {
-    echo '<p class="text-center">No hay resultados  :(</p>';
-  }
+
+  echo $Paginador->pagLinks();
 
 }
 ?>
