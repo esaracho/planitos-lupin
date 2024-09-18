@@ -104,13 +104,13 @@ function getQuery($q) : string {
 
       }
 
-      $s = "/" . $s1 . "/i";
+      $s = "/" . $s1 . "/iu";
       
       return $s;
 
     } else {
 
-      return "/". $inputa[0] . "/i";
+      return "/". $inputa[0] . "/iu";
 
     }
     
@@ -147,9 +147,9 @@ function searchQuery($search, $file) : bool {
 if($_GET) {
 
   //Se guarda lo ingresado en la búsqueda(log)
-/*   $queryString = date(DATE_RFC1123) . " " . $_GET["query"] . "\n";
+  $queryString = date(DATE_RFC1123) . " " . $_GET["query"] . "\n";
   $logQueryFile = "/busquedas-log.txt";
-  file_put_contents(__DIR__ . $logQueryFile, $queryString , FILE_APPEND); */
+  file_put_contents(__DIR__ . $logQueryFile, $queryString , FILE_APPEND);
   
   $Paginador  = new Paginador( $_GET, $limit );
   $links = $Paginador->getData();
