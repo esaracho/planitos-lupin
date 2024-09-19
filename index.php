@@ -33,7 +33,7 @@ You should have received a copy of the GNU General Public License along with thi
   ?>
       <h5 class="text-end fw-bold">LOS PLANITOS</h5>
     </a>
-    <p class="text-center fw-light">Un archivo de "los planitos" publicados en la <a class="link-opacity-50-hover ms-1 link-dark" title="Revista Lúpin en AHiRA" href="https://ahira.com.ar/revistas/lupin/" target="_blank"><b>Revista Lúpin</b></a></p>
+    <p class="text-center">Un archivo de "los planitos" publicados en la <a class="link-opacity-50-hover ms-1 link-dark" title="Revista Lúpin en AHiRA" href="https://ahira.com.ar/revistas/lupin/" target="_blank"><b>Revista Lúpin</b></a></p>
   </header>
 
 <!-- Formulario busqueda -->
@@ -168,10 +168,10 @@ if($_GET) {
 
   <footer class="px-3 pt-5">
       <div class="border-top text-center">
-        <p class="fs-6 fw-light"><b>¿Problemas?</b> <a class="link-opacity-50-hover ms-1 link-dark" href="https://github.com/esaracho/planitos-lupin/issues" target="_blank">GitHub</a><a class="link-opacity-50-hover ms-2 link-dark" href="mailto:losplanitos@proton.me">eMail</a></p>
-        <p class="fs-6 fw-light">Algunos planitos fueron extraidos del blog <a class="link-opacity-50-hover ms-1 link-dark" href="https://losplanitosdelupin.wordpress.com/" target="_blank">Los planitos de Lúpin</a></p>
-        <p class="fs-6 fw-light">Planitos incluidos en los números: 100-105 / 150-155 / 200-211 / 220-259 / 300-305 / 349-355</p>
-        <p class="fs-6 fw-light">Dedicado con &#10084; a G.D.S. y a todos los que colaboraron.</p>
+        <p class="fs-6"><b>¿Problemas?</b> <a class="link-opacity-50-hover ms-1 link-dark" href="https://github.com/esaracho/planitos-lupin/issues" target="_blank">GitHub</a><a class="link-opacity-50-hover ms-2 link-dark" href="mailto:losplanitos@proton.me">eMail</a></p>
+        <p class="fs-6">Algunos planitos fueron extraidos del blog <a class="link-opacity-50-hover ms-1 link-dark" href="https://losplanitosdelupin.wordpress.com/" target="_blank">Los planitos de Lúpin</a></p>
+        <p class="fs-6">Planitos incluidos en los números: 100-105 / 150-155 / 200-211 / 220-259 / 300-305 / 349-355</p>
+        <p class="fs-6">Dedicado con &#10084; a G.D.S. y a todos los que colaboraron.</p>
         <img class="fondo" src="./fin.jpg">
       </div>
   </footer>
