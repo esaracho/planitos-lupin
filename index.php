@@ -33,7 +33,7 @@ You should have received a copy of the GNU General Public License along with thi
   ?>
       <h5 class="text-end fw-bold">LOS PLANITOS</h5>
     </a>
-    <p class="text-center">Un archivo de "los planitos" publicados en la <a class="link-opacity-50-hover ms-1 link-dark" title="Revista Lúpin en AHiRA" href="https://ahira.com.ar/revistas/lupin/" target="_blank"><b>Revista Lúpin</b></a></p>
+    <p class="text-center">Un archivo de "los planitos" publicados en la <a class="link-opacity-50-hover ms-1 link-dark" title="Revista Lúpin en AHiRA" href="https://ahira.com.ar/revistas/lupin/" target="_blank">Revista Lúpin</a></p>
   </header>
 
 <!-- Formulario busqueda -->

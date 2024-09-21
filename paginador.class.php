@@ -153,12 +153,12 @@ class Paginador {
       
       $last = ceil( $this->_total / $this->_limit );
       $class = ( $this->_page == 1 ) ? "disabled" : "";
-      $html = '<div class="paginador"><a class="' . $class . '" href="?total=' . $this->_total . '&page=1&query=' . $this->_query . '&cat=' . $this->_cat . '" > &#8676 </a><a class="' . $class . '" href="?total=' . $this->_total . '&page=' . ($this->_page - 1) . '&query=' . $this->_query . '&cat=' . $this->_cat . '" > &#8612 </a>';
+      $html = '<div class="paginador"><a title="Primera" class="' . $class . '" href="?total=' . $this->_total . '&page=1&query=' . $this->_query . '&cat=' . $this->_cat . '" > &#8676 </a><a title="Anterior" class="' . $class . '" href="?total=' . $this->_total . '&page=' . ($this->_page - 1) . '&query=' . $this->_query . '&cat=' . $this->_cat . '" > &#8612 </a>';
       
       $html .= '<span>' . $this->_page . ' de ' . $last . '</span>';
       
       $class = ( $this->_page == $last ) ? "disabled" : "";
-      $html .= '<a class="' . $class . '" href="?total=' . $this->_total . '&page=' . ($this->_page + 1) . '&query=' . $this->_query . '&cat=' . $this->_cat . '" > &#8614 </a><a class="' . $class . '" href="?total=' . $this->_total . '&page=' . $last .'&query=' . $this->_query . '&cat=' . $this->_cat . '" > &#8677 </a></div>';
+      $html .= '<a title="Siguiente" class="' . $class . '" href="?total=' . $this->_total . '&page=' . ($this->_page + 1) . '&query=' . $this->_query . '&cat=' . $this->_cat . '" > &#8614 </a><a title="Última" class="' . $class . '" href="?total=' . $this->_total . '&page=' . $last .'&query=' . $this->_query . '&cat=' . $this->_cat . '" > &#8677 </a></div>';
 
       return $html;
 
