@@ -22,3 +22,4 @@ ls | grep "^RIN" | tree --fromfile -J > ../json/RIN.json
 ls | grep "^CIC" | tree --fromfile -J > ../json/CIC.json
 ls | grep "^FOT" | tree --fromfile -J > ../json/FOT.json
 ls | grep "^AST" | tree --fromfile -J > ../json/AST.json
+ls | grep "^MSC" | tree --fromfile -J > ../json/MSC.json
