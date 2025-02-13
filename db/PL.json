@@ -12,8 +12,6 @@
     {"type":"file","name":"PL-num-205-plumerito-pustenblume-2.jpg"},
     {"type":"file","name":"PL-num-205-plumerito-pustenblume-3.jpg"},
     {"type":"file","name":"PL-num-210-avion-lupin.jpg"},
-    {"type":"file","name":"PL-num-212-toba-1.jpg"},
-    {"type":"file","name":"PL-num-212-toba-2.jpg"},
     {"type":"file","name":"PL-num-212-toba-todo-balsa-1.jpg"},
     {"type":"file","name":"PL-num-212-toba-todo-balsa-2.jpg"},
     {"type":"file","name":"PL-num-212-toba-todo-balsa-3.jpg"},
@@ -75,5 +73,5 @@
     {"type":"file","name":"PL-suple-83-jetstream-a1-2.jpg"}
   ]}
 ,
-  {"type":"report","directories":1,"files":73}
+  {"type":"report","directories":1,"files":71}
 ]

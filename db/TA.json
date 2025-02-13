@@ -15,13 +15,10 @@
     {"type":"file","name":"TA-num-211-usando-alambre-acero-2.jpg"},
     {"type":"file","name":"TA-num-213-fuselajes-1.jpg"},
     {"type":"file","name":"TA-num-213-fuselajes-2.jpg"},
-    {"type":"file","name":"TA-num-213-fuselajes.jpg"},
-    {"type":"file","name":"TA-num-215-centrando.jpg"},
     {"type":"file","name":"TA-num-215-centrando-modelo-goma-escala-1.jpg"},
     {"type":"file","name":"TA-num-215-centrando-modelo-goma-escala-2.jpg"},
     {"type":"file","name":"TA-num-218-amortiguador-tren-aterrizaje-1.jpg"},
     {"type":"file","name":"TA-num-218-amortiguador-tren-aterrizaje-2.jpg"},
-    {"type":"file","name":"TA-num-218-amortiguador-tren-aterrizaje.jpg"},
     {"type":"file","name":"TA-num-219-materiales-herramientas.jpg"},
     {"type":"file","name":"TA-num-219-partes-modelo.jpg"},
     {"type":"file","name":"TA-num-220-costillas-armando-ala-1.jpg"},
@@ -41,5 +38,5 @@
     {"type":"file","name":"TA-num-362-sierra-balsa.jpg"}
   ]}
 ,
-  {"type":"report","directories":1,"files":39}
+  {"type":"report","directories":1,"files":36}
 ]

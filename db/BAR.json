@@ -30,7 +30,6 @@
     {"type":"file","name":"BAR-num-209-barrilete-japones-2.jpg"},
     {"type":"file","name":"BAR-num-217-barrilete-sin-armazon-rigido-1.jpg"},
     {"type":"file","name":"BAR-num-217-barrilete-sin-armazon-rigido-2.jpg"},
-    {"type":"file","name":"BAR-num-217-sin-armazon.jpg"},
     {"type":"file","name":"BAR-num-220-barrilete-cajon-con-alas-1.jpg"},
     {"type":"file","name":"BAR-num-220-barrilete-cajon-con-alas-2.jpg"},
     {"type":"file","name":"BAR-num-229-barrilete-delta.jpg"},
@@ -85,5 +84,5 @@
     {"type":"file","name":"BAR-suple-75-ala-voladora.jpg"}
   ]}
 ,
-  {"type":"report","directories":1,"files":83}
+  {"type":"report","directories":1,"files":82}
 ]

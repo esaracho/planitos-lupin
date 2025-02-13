@@ -36,7 +36,6 @@
     {"type":"file","name":"MAQ-num-216-mitsubishi-a6m-zero-1.jpg"},
     {"type":"file","name":"MAQ-num-216-mitsubishi-a6m-zero-2.jpg"},
     {"type":"file","name":"MAQ-num-216-mitsubishi-a6m-zero-3.jpg"},
-    {"type":"file","name":"MAQ-num-216-zero.jpg"},
     {"type":"file","name":"MAQ-num-221-nieuport-ni-xvii-super-bebe-1.jpg"},
     {"type":"file","name":"MAQ-num-221-nieuport-ni-xvii-super-bebe-2.jpg"},
     {"type":"file","name":"MAQ-num-221-nieuport-ni-xvii-super-bebe-3.jpg"},
@@ -140,5 +139,5 @@
     {"type":"file","name":"MAQ-num-363-fokker-cv-ro1-3.jpg"}
   ]}
 ,
-  {"type":"report","directories":1,"files":138}
+  {"type":"report","directories":1,"files":137}
 ]

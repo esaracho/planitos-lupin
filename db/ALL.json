@@ -80,7 +80,6 @@
     {"type":"file","name":"BAR-num-209-barrilete-japones-2.jpg"},
     {"type":"file","name":"BAR-num-217-barrilete-sin-armazon-rigido-1.jpg"},
     {"type":"file","name":"BAR-num-217-barrilete-sin-armazon-rigido-2.jpg"},
-    {"type":"file","name":"BAR-num-217-sin-armazon.jpg"},
     {"type":"file","name":"BAR-num-220-barrilete-cajon-con-alas-1.jpg"},
     {"type":"file","name":"BAR-num-220-barrilete-cajon-con-alas-2.jpg"},
     {"type":"file","name":"BAR-num-229-barrilete-delta.jpg"},
@@ -854,7 +853,6 @@
     {"type":"file","name":"MAQ-num-216-mitsubishi-a6m-zero-1.jpg"},
     {"type":"file","name":"MAQ-num-216-mitsubishi-a6m-zero-2.jpg"},
     {"type":"file","name":"MAQ-num-216-mitsubishi-a6m-zero-3.jpg"},
-    {"type":"file","name":"MAQ-num-216-zero.jpg"},
     {"type":"file","name":"MAQ-num-221-nieuport-ni-xvii-super-bebe-1.jpg"},
     {"type":"file","name":"MAQ-num-221-nieuport-ni-xvii-super-bebe-2.jpg"},
     {"type":"file","name":"MAQ-num-221-nieuport-ni-xvii-super-bebe-3.jpg"},
@@ -1169,8 +1167,6 @@
     {"type":"file","name":"PL-num-205-plumerito-pustenblume-2.jpg"},
     {"type":"file","name":"PL-num-205-plumerito-pustenblume-3.jpg"},
     {"type":"file","name":"PL-num-210-avion-lupin.jpg"},
-    {"type":"file","name":"PL-num-212-toba-1.jpg"},
-    {"type":"file","name":"PL-num-212-toba-2.jpg"},
     {"type":"file","name":"PL-num-212-toba-todo-balsa-1.jpg"},
     {"type":"file","name":"PL-num-212-toba-todo-balsa-2.jpg"},
     {"type":"file","name":"PL-num-212-toba-todo-balsa-3.jpg"},
@@ -1558,13 +1554,10 @@
     {"type":"file","name":"TA-num-211-usando-alambre-acero-2.jpg"},
     {"type":"file","name":"TA-num-213-fuselajes-1.jpg"},
     {"type":"file","name":"TA-num-213-fuselajes-2.jpg"},
-    {"type":"file","name":"TA-num-213-fuselajes.jpg"},
-    {"type":"file","name":"TA-num-215-centrando.jpg"},
     {"type":"file","name":"TA-num-215-centrando-modelo-goma-escala-1.jpg"},
     {"type":"file","name":"TA-num-215-centrando-modelo-goma-escala-2.jpg"},
     {"type":"file","name":"TA-num-218-amortiguador-tren-aterrizaje-1.jpg"},
     {"type":"file","name":"TA-num-218-amortiguador-tren-aterrizaje-2.jpg"},
-    {"type":"file","name":"TA-num-218-amortiguador-tren-aterrizaje.jpg"},
     {"type":"file","name":"TA-num-219-materiales-herramientas.jpg"},
     {"type":"file","name":"TA-num-219-partes-modelo.jpg"},
     {"type":"file","name":"TA-num-220-costillas-armando-ala-1.jpg"},
@@ -1616,5 +1609,5 @@
     {"type":"file","name":"UC-suple-79-primer-vuelo-ucontrol.jpg"}
   ]}
 ,
-  {"type":"report","directories":1,"files":1614}
+  {"type":"report","directories":1,"files":1607}
 ]
