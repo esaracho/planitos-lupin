@@ -1,7 +1,30 @@
 [
   {"type":"directory","name":".","contents":[
-    {"type":"file","name":"BT-num-327-catamaran.jpg"}
+    {"type":"file","name":"BT-num-100-patito-feo-1.jpg"},
+    {"type":"file","name":"BT-num-100-patito-feo-2.jpg"},
+    {"type":"file","name":"BT-num-100-patito-feo-3.jpg"},
+    {"type":"file","name":"BT-num-113-catamaran-1.jpg"},
+    {"type":"file","name":"BT-num-113-catamaran-2.jpg"},
+    {"type":"file","name":"BT-num-113-catamaran-3.jpg"},
+    {"type":"file","name":"BT-num-154-velero-con-rueditas-1.jpg"},
+    {"type":"file","name":"BT-num-154-velero-con-rueditas-2.jpg"},
+    {"type":"file","name":"BT-num-221-yatecito-facilito-de-hacer-1.jpg"},
+    {"type":"file","name":"BT-num-221-yatecito-facilito-de-hacer-2.jpg"},
+    {"type":"file","name":"BT-num-233-hidrodeslizador-1.jpg"},
+    {"type":"file","name":"BT-num-233-hidrodeslizador-2.jpg"},
+    {"type":"file","name":"BT-num-244-velerito-sencillo-vistoso-1.jpg"},
+    {"type":"file","name":"BT-num-244-velerito-sencillo-vistoso-2.jpg"},
+    {"type":"file","name":"BT-num-244-velerito-sencillo-vistoso-3.jpg"},
+    {"type":"file","name":"BT-num-327-catamaran.jpg"},
+    {"type":"file","name":"BT-num-353-catamaran-sencillo-1.jpg"},
+    {"type":"file","name":"BT-num-353-catamaran-sencillo-2.jpg"},
+    {"type":"file","name":"BT-num-363-yatecito-facil-1.jpg"},
+    {"type":"file","name":"BT-num-363-yatecito-facil-2.jpg"},
+    {"type":"file","name":"BT-num-364-catamaran-vela-latina-1.jpg"},
+    {"type":"file","name":"BT-num-364-catamaran-vela-latina-2.jpg"},
+    {"type":"file","name":"BT-num-365-velero-embotellado-1.jpg"},
+    {"type":"file","name":"BT-num-365-velero-embotellado-2.jpg"}
   ]}
 ,
-  {"type":"report","directories":1,"files":1}
+  {"type":"report","directories":1,"files":24}
 ]

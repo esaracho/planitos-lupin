@@ -1,11 +1,13 @@
 [
   {"type":"directory","name":".","contents":[
-    {"type":"file","name":"ARV-num-227-lupin-paracaidista.jpg"},
+    {"type":"file","name":"ARV-num-227-lupin-paracaidista-1.jpg"},
+    {"type":"file","name":"ARV-num-227-lupin-paracaidista-2.jpg"},
     {"type":"file","name":"ARV-num-279-veroms-b-ala-delta.jpg"},
     {"type":"file","name":"ARV-num-293-boomerang.jpg"},
+    {"type":"file","name":"ARV-num-323-hace-este-plato-volador-estudia-su-forma-giroscopica-de-volar.jpg"},
     {"type":"file","name":"ARV-num-37-helibumerang.jpg"},
     {"type":"file","name":"ARV-num-51-el-plato-volador.jpg"}
   ]}
 ,
-  {"type":"report","directories":1,"files":5}
+  {"type":"report","directories":1,"files":7}
 ]

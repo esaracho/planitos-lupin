@@ -1,7 +1,13 @@
 [
   {"type":"directory","name":".","contents":[
-    {"type":"file","name":"GL-num-257-globo-aire-caliente.jpg"}
+    {"type":"file","name":"GL-num-257-globo-aire-caliente-1.jpg"},
+    {"type":"file","name":"GL-num-257-globo-aire-caliente-2.jpg"},
+    {"type":"file","name":"GL-num-257-globo-aire-caliente-3.jpg"},
+    {"type":"file","name":"GL-num-315-globo-aire-caliente-construccion-sencilla-1.jpg"},
+    {"type":"file","name":"GL-num-315-globo-aire-caliente-construccion-sencilla-2.jpg"},
+    {"type":"file","name":"GL-num-354-globo-aire-caliente-incas-1.jpg"},
+    {"type":"file","name":"GL-num-354-globo-aire-caliente-incas-2.jpg"}
   ]}
 ,
-  {"type":"report","directories":1,"files":1}
+  {"type":"report","directories":1,"files":7}
 ]

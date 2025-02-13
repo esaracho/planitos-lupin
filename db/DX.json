@@ -1,0 +1,13 @@
+[
+  {"type":"directory","name":".","contents":[
+    {"type":"file","name":"DX-num-360-onda-corta.jpg"},
+    {"type":"file","name":"DX-num-361-onda-corta.jpg"},
+    {"type":"file","name":"DX-num-362-red-internet.jpg"},
+    {"type":"file","name":"DX-num-364-hoy-vhf-1.jpg"},
+    {"type":"file","name":"DX-num-364-hoy-vhf-2.jpg"},
+    {"type":"file","name":"DX-num-365-medidor-campo-28mhz-1.jpg"},
+    {"type":"file","name":"DX-num-365-medidor-campo-28mhz-2.jpg"}
+  ]}
+,
+  {"type":"report","directories":1,"files":7}
+]

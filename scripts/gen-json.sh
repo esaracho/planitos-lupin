@@ -23,3 +23,6 @@ ls | grep "^CIC" | tree --fromfile -J > ../json/CIC.json
 ls | grep "^FOT" | tree --fromfile -J > ../json/FOT.json
 ls | grep "^AST" | tree --fromfile -J > ../json/AST.json
 ls | grep "^MSC" | tree --fromfile -J > ../json/MSC.json
+ls | grep "^SCT" | tree --fromfile -J > ../json/SCT.json
+ls | grep "^DIB" | tree --fromfile -J > ../json/DIB.json
+ls | grep "^DX" | tree --fromfile -J > ../json/DX.json

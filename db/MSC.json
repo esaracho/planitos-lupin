@@ -1,0 +1,17 @@
+[
+  {"type":"directory","name":".","contents":[
+    {"type":"file","name":"MSC-num-100-guitarras-electricas-otras-1.jpg"},
+    {"type":"file","name":"MSC-num-100-guitarras-electricas-otras-2.jpg"},
+    {"type":"file","name":"MSC-num-100-guitarras-electricas-otras-3.jpg"},
+    {"type":"file","name":"MSC-num-104-instrumentos-faciles-bandita-ritmica-1.jpg"},
+    {"type":"file","name":"MSC-num-104-instrumentos-faciles-bandita-ritmica-2.jpg"},
+    {"type":"file","name":"MSC-num-218-primavera-musica-1.jpg"},
+    {"type":"file","name":"MSC-num-218-primavera-musica-2.jpg"},
+    {"type":"file","name":"MSC-num-222-instrumentos-musicales-1.jpg"},
+    {"type":"file","name":"MSC-num-222-instrumentos-musicales-2.jpg"},
+    {"type":"file","name":"MSC-num-324-musica-1-curso-organo-guitarra-tono-semitono.jpg"},
+    {"type":"file","name":"MSC-num-325-musica-2-curso-organo-guitarra-toquemos-teclado-escala-do-mayor-mano-derecha.jpg"}
+  ]}
+,
+  {"type":"report","directories":1,"files":11}
+]

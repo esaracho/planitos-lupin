@@ -1,13 +1,18 @@
 [
   {"type":"directory","name":".","contents":[
-    {"type":"file","name":"RC-num-183-1-mb1-trainer.jpg"},
-    {"type":"file","name":"RC-num-183-2-mb1-trainer.jpg"},
-    {"type":"file","name":"RC-num-183-3-mb1-trainer.jpg"},
-    {"type":"file","name":"RC-num-226-lanzando-planeador.jpg"},
-    {"type":"file","name":"RC-num-236-1-pilotando-rc.jpg"},
-    {"type":"file","name":"RC-num-237-2-pilotando-rc.jpg"},
-    {"type":"file","name":"RC-num-239-3-pilotando-rc.jpg"}
+    {"type":"file","name":"RC-num-183-mb1-trainer-1.jpg"},
+    {"type":"file","name":"RC-num-183-mb1-trainer-2.jpg"},
+    {"type":"file","name":"RC-num-183-mb1-trainer-3.jpg"},
+    {"type":"file","name":"RC-num-226-lanzando-planeador-rc-1.jpg"},
+    {"type":"file","name":"RC-num-226-lanzando-planeador-rc-2.jpg"},
+    {"type":"file","name":"RC-num-236-pilotando-desde-tierra-rc-a-1.jpg"},
+    {"type":"file","name":"RC-num-236-pilotando-desde-tierra-rc-a-2.jpg"},
+    {"type":"file","name":"RC-num-237-pilotando-desde-tierra-rc-despegue-b.jpg"},
+    {"type":"file","name":"RC-num-238-pilotando-desde-tierra-rc-virajes-c.jpg"},
+    {"type":"file","name":"RC-num-239-pilotando-rc-maniobras.jpg"},
+    {"type":"file","name":"RC-num-241-pilotando-rc-aterrizaje.jpg"},
+    {"type":"file","name":"RC-num-359-equipos-control.jpg"}
   ]}
 ,
-  {"type":"report","directories":1,"files":7}
+  {"type":"report","directories":1,"files":12}
 ]

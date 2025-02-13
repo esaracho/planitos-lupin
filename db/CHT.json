@@ -1,8 +1,39 @@
 [
   {"type":"directory","name":".","contents":[
+    {"type":"file","name":"CHT-num-106-el-lanzamiento-1.jpg"},
+    {"type":"file","name":"CHT-num-106-el-lanzamiento-2.jpg"},
+    {"type":"file","name":"CHT-num-107-como-construir-cohetes-aerodinamicamente-estables-1.jpg"},
+    {"type":"file","name":"CHT-num-107-como-construir-cohetes-aerodinamicamente-estables-2.jpg"},
+    {"type":"file","name":"CHT-num-108-poniendo-a-prueba-estabilidad-cohete-1.jpg"},
+    {"type":"file","name":"CHT-num-108-poniendo-a-prueba-estabilidad-cohete-2.jpg"},
+    {"type":"file","name":"CHT-num-109-disparador-1.jpg"},
+    {"type":"file","name":"CHT-num-109-disparador-2.jpg"},
+    {"type":"file","name":"CHT-num-109-disparador-3.jpg"},
+    {"type":"file","name":"CHT-num-110-sistemas-de-recuperacion-1.jpg"},
+    {"type":"file","name":"CHT-num-110-sistemas-de-recuperacion-2.jpg"},
+    {"type":"file","name":"CHT-num-111-cohetes-de-dos-etapas-1.jpg"},
+    {"type":"file","name":"CHT-num-111-cohetes-de-dos-etapas-2.jpg"},
+    {"type":"file","name":"CHT-num-112-cohetes-de-dos-etapas-segunda-parte-1.jpg"},
+    {"type":"file","name":"CHT-num-112-cohetes-de-dos-etapas-segunda-parte-2.jpg"},
+    {"type":"file","name":"CHT-num-113-el-lupin-primero-serie-aeropol-1.jpg"},
+    {"type":"file","name":"CHT-num-113-el-lupin-primero-serie-aeropol-2.jpg"},
+    {"type":"file","name":"CHT-num-113-el-lupin-primero-serie-aeropol-3.jpg"},
     {"type":"file","name":"CHT-num-177-concorde.jpg"},
-    {"type":"file","name":"CHT-num-187-cohete-planeador-halcon.jpg"}
+    {"type":"file","name":"CHT-num-187-cohete-planeador-halcon.jpg"},
+    {"type":"file","name":"CHT-num-213-medidor-altura-cohetes-1.jpg"},
+    {"type":"file","name":"CHT-num-213-medidor-altura-cohetes-2.jpg"},
+    {"type":"file","name":"CHT-num-214-cohete-2-etapas-delta-1.jpg"},
+    {"type":"file","name":"CHT-num-214-cohete-2-etapas-delta-2.jpg"},
+    {"type":"file","name":"CHT-num-215-el-cohetito-1.jpg"},
+    {"type":"file","name":"CHT-num-215-el-cohetito-2.jpg"},
+    {"type":"file","name":"CHT-num-217-grand-prix-1.jpg"},
+    {"type":"file","name":"CHT-num-217-grand-prix-2.jpg"},
+    {"type":"file","name":"CHT-num-218-interceptor-espacial-battlestar-galactica-1.jpg"},
+    {"type":"file","name":"CHT-num-218-interceptor-espacial-battlestar-galactica-2.jpg"},
+    {"type":"file","name":"CHT-num-218-interceptor-espacial-battlestar-galactica-3.jpg"},
+    {"type":"file","name":"CHT-num-218-interceptor-espacial-battlestar-galactica-4.jpg"},
+    {"type":"file","name":"CHT-num-242-ideas-para-coheteria.jpg"}
   ]}
 ,
-  {"type":"report","directories":1,"files":2}
+  {"type":"report","directories":1,"files":33}
 ]

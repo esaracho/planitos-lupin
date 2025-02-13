@@ -1,0 +1,35 @@
+[
+  {"type":"directory","name":".","contents":[
+    {"type":"file","name":"FOT-num-101-conector-flash.jpg"},
+    {"type":"file","name":"FOT-num-103-foto-aplicaciones-vidrio-madera-porcelana-1.jpg"},
+    {"type":"file","name":"FOT-num-103-foto-aplicaciones-vidrio-madera-porcelana-2.jpg"},
+    {"type":"file","name":"FOT-num-110-como-revelar-1.jpg"},
+    {"type":"file","name":"FOT-num-110-como-revelar-2.jpg"},
+    {"type":"file","name":"FOT-num-110-como-revelar-3.jpg"},
+    {"type":"file","name":"FOT-num-111-copiadora-de-fotografias-1.jpg"},
+    {"type":"file","name":"FOT-num-111-copiadora-de-fotografias-2.jpg"},
+    {"type":"file","name":"FOT-num-112-como-copiar-abrillantar-fotos-1.jpg"},
+    {"type":"file","name":"FOT-num-112-como-copiar-abrillantar-fotos-2.jpg"},
+    {"type":"file","name":"FOT-num-113-titulos-faciles.jpg"},
+    {"type":"file","name":"FOT-num-115-enfocadora-ampliaciones.jpg"},
+    {"type":"file","name":"FOT-num-155-secador-fotos.jpg"},
+    {"type":"file","name":"FOT-num-206-foto-color-1.jpg"},
+    {"type":"file","name":"FOT-num-206-foto-color-2.jpg"},
+    {"type":"file","name":"FOT-num-207-fotos-telescopio.jpg"},
+    {"type":"file","name":"FOT-num-208-revelando-color-1.jpg"},
+    {"type":"file","name":"FOT-num-208-revelando-color-2.jpg"},
+    {"type":"file","name":"FOT-num-208-revelando-color-3.jpg"},
+    {"type":"file","name":"FOT-num-209-tamaño-planetas-sobre-film.jpg"},
+    {"type":"file","name":"FOT-num-220-reflex-para-cualquier-camara-1.jpg"},
+    {"type":"file","name":"FOT-num-220-reflex-para-cualquier-camara-2.jpg"},
+    {"type":"file","name":"FOT-num-220-reflex-para-cualquier-camara-3.jpg"},
+    {"type":"file","name":"FOT-num-222-fotografia-colores-1.jpg"},
+    {"type":"file","name":"FOT-num-223-fotografia-colores-2.jpg"},
+    {"type":"file","name":"FOT-num-239-para-tomar-macrofotos-1.jpg"},
+    {"type":"file","name":"FOT-num-239-para-tomar-macrofotos-2.jpg"},
+    {"type":"file","name":"FOT-num-304-usas-teleobjetivo.jpg"},
+    {"type":"file","name":"FOT-num-359-fotografia-colores.jpg"}
+  ]}
+,
+  {"type":"report","directories":1,"files":29}
+]
