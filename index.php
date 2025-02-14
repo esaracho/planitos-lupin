@@ -48,7 +48,10 @@ You should have received a copy of the GNU General Public License along with thi
   </search>
 
 <!-- Categorías -->
-  <div class="px-3 pt-4 text-center">
+<details>
+<summary>Categorías</summary>
+
+  <div class="px-3 pt-1 text-center">
   <form name="categorias" method="GET" action="index.php" id="categorias">
     <button type="submit" name="cat" value="MAQ" class="btn btn-link btn-sm">Maquetas</button>
     <button type="submit" name="cat" value="BAR" class="btn btn-link btn-sm">Barriletes</button>
@@ -78,6 +81,7 @@ You should have received a copy of the GNU General Public License along with thi
   </form>
   </div>
 
+</details>  
 <!-- Resultados -->
   <main class="px-3 pt-5 d-flex flex-column align-self-center">
       

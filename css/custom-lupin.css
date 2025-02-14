@@ -41,11 +41,42 @@ h5 {
 button div {
 
     transform: rotate(-45deg);
-    font-size: 1.2em;
+    font-size: 1.2rem;
 
 }
 
-main {
+/*Estilos categorias*/
+
+details {
+    margin: 0 auto;
+    margin-top: 30px;
+    width: fit-content;
+  }
+
+details summary {
+    margin: 0 auto;
+    width: fit-content;
+    font-size: 1.15rem;
+  }
+
+
+details summary::marker,
+  :is(::-webkit-details-marker) {
+    /*caracter utf8 hex*/
+    content: '\29FE\20';
+    font-family: monospace;
+    font-weight: bold;
+    font-size: 1.15rem;
+  }
+  
+details[open] summary::marker {
+    content: '\29FF\20';
+    transform: rotate(-45deg);
+  }
+
+/*Estilos main*/
+
+  main {
 
     min-height: 10vh;
 
