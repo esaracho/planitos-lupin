@@ -54,6 +54,16 @@
     {"type":"file","name":"COM-num-258-microcomputacion-21-desplazamiento-de-imagenes-pantalla-commodore-64.jpg"},
     {"type":"file","name":"COM-num-259-microcomputacion-22-frecuencimetro-con-la-computadora-1.jpg"},
     {"type":"file","name":"COM-num-259-microcomputacion-22-frecuencimetro-con-la-computadora-2.jpg"},
+    {"type":"file","name":"COM-num-260-microcomputacion-23-efectos-especiales-ts1000-zx81-tk85-1.jpg"},
+    {"type":"file","name":"COM-num-260-microcomputacion-23-efectos-especiales-ts1000-zx81-tk85-2.jpg"},
+    {"type":"file","name":"COM-num-261-microcomputacion-24-organo-electronico-ts1000-tk85.jpg"},
+    {"type":"file","name":"COM-num-262-microcomputacion-25-imagen-sin-fin-ts1000-tk85.jpg"},
+    {"type":"file","name":"COM-num-263-microcomputacion-26-osciloscopio-ts1000.jpg"},
+    {"type":"file","name":"COM-num-264-microcomputacion-27-generador-sonido-ts1000.jpg"},
+    {"type":"file","name":"COM-num-265-microcomputacion-28-busqueda-tesoro-ts1000.jpg"},
+    {"type":"file","name":"COM-num-268-microcomputacion-29-discando-palabras-ts1000.jpg"},
+    {"type":"file","name":"COM-num-268-subrutina-musical-spectrum.jpg"},
+    {"type":"file","name":"COM-num-269-microcomputacion-30-algo-mas-acerca-sinclair-1000.jpg"},
     {"type":"file","name":"COM-num-300-microcomputacion-grabador-voz-spectrum.jpg"},
     {"type":"file","name":"COM-num-301-reforzador-pantalla-spectrum.jpg"},
     {"type":"file","name":"COM-num-302-juego-toros-vacas-spectrum.jpg"},
@@ -99,5 +109,5 @@
     {"type":"file","name":"COM-num-365-programitas-sencillos-para-pc-basic.jpg"}
   ]}
 ,
-  {"type":"report","directories":1,"files":97}
+  {"type":"report","directories":1,"files":107}
 ]

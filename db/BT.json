@@ -8,6 +8,9 @@
     {"type":"file","name":"BT-num-113-catamaran-3.jpg"},
     {"type":"file","name":"BT-num-154-velero-con-rueditas-1.jpg"},
     {"type":"file","name":"BT-num-154-velero-con-rueditas-2.jpg"},
+    {"type":"file","name":"BT-num-196-embarcacion-oriental-1.jpg"},
+    {"type":"file","name":"BT-num-196-embarcacion-oriental-2.jpg"},
+    {"type":"file","name":"BT-num-196-embarcacion-oriental-3.jpg"},
     {"type":"file","name":"BT-num-221-yatecito-facilito-de-hacer-1.jpg"},
     {"type":"file","name":"BT-num-221-yatecito-facilito-de-hacer-2.jpg"},
     {"type":"file","name":"BT-num-233-hidrodeslizador-1.jpg"},
@@ -26,5 +29,5 @@
     {"type":"file","name":"BT-num-365-velero-embotellado-2.jpg"}
   ]}
 ,
-  {"type":"report","directories":1,"files":24}
+  {"type":"report","directories":1,"files":27}
 ]

@@ -20,6 +20,18 @@
     {"type":"file","name":"CHT-num-113-el-lupin-primero-serie-aeropol-3.jpg"},
     {"type":"file","name":"CHT-num-177-concorde.jpg"},
     {"type":"file","name":"CHT-num-187-cohete-planeador-halcon.jpg"},
+    {"type":"file","name":"CHT-num-190-diseñando-cohetes-1.jpg"},
+    {"type":"file","name":"CHT-num-190-diseñando-cohetes-2.jpg"},
+    {"type":"file","name":"CHT-num-191-sistemas-recuperacion-1.jpg"},
+    {"type":"file","name":"CHT-num-191-sistemas-recuperacion-2.jpg"},
+    {"type":"file","name":"CHT-num-192-pruebas-estabilidad-1.jpg"},
+    {"type":"file","name":"CHT-num-192-pruebas-estabilidad-2.jpg"},
+    {"type":"file","name":"CHT-num-193-cohetes-dos-etapas-1.jpg"},
+    {"type":"file","name":"CHT-num-193-cohetes-dos-etapas-2.jpg"},
+    {"type":"file","name":"CHT-num-194-cohetes-dos-etapas-1.jpg"},
+    {"type":"file","name":"CHT-num-194-cohetes-dos-etapas-2.jpg"},
+    {"type":"file","name":"CHT-num-196-momento-exacto-lanzamiento-1.jpg"},
+    {"type":"file","name":"CHT-num-196-momento-exacto-lanzamiento-2.jpg"},
     {"type":"file","name":"CHT-num-213-medidor-altura-cohetes-1.jpg"},
     {"type":"file","name":"CHT-num-213-medidor-altura-cohetes-2.jpg"},
     {"type":"file","name":"CHT-num-214-cohete-2-etapas-delta-1.jpg"},
@@ -32,8 +44,10 @@
     {"type":"file","name":"CHT-num-218-interceptor-espacial-battlestar-galactica-2.jpg"},
     {"type":"file","name":"CHT-num-218-interceptor-espacial-battlestar-galactica-3.jpg"},
     {"type":"file","name":"CHT-num-218-interceptor-espacial-battlestar-galactica-4.jpg"},
-    {"type":"file","name":"CHT-num-242-ideas-para-coheteria.jpg"}
+    {"type":"file","name":"CHT-num-242-ideas-para-coheteria.jpg"},
+    {"type":"file","name":"CHT-num-plataforma-disparador-1.jpg"},
+    {"type":"file","name":"CHT-num-plataforma-disparador-2.jpg"}
   ]}
 ,
-  {"type":"report","directories":1,"files":33}
+  {"type":"report","directories":1,"files":47}
 ]

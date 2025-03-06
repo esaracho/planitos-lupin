@@ -16,7 +16,9 @@
     {"type":"file","name":"MG-num-156-picaflor-1.jpg"},
     {"type":"file","name":"MG-num-156-picaflor-2.jpg"},
     {"type":"file","name":"MG-num-166-avioncito-escuela.jpg"},
-    {"type":"file","name":"MG-num-199-bichito-volador.jpg"},
+    {"type":"file","name":"MG-num-199-bichito-volador-1.jpg"},
+    {"type":"file","name":"MG-num-199-bichito-volador-2.jpg"},
+    {"type":"file","name":"MG-num-199-bichito-volador-3.jpg"},
     {"type":"file","name":"MG-num-203-aeroplanos-nuestros-abuelos.jpg"},
     {"type":"file","name":"MG-num-228-el-chorlito-1.jpg"},
     {"type":"file","name":"MG-num-228-el-chorlito-2.jpg"},
@@ -24,7 +26,12 @@
     {"type":"file","name":"MG-num-246-chicoplano-1.jpg"},
     {"type":"file","name":"MG-num-246-chicoplano-2.jpg"},
     {"type":"file","name":"MG-num-246-chicoplano-3.jpg"},
-    {"type":"file","name":"MG-num-267-bimotor-quiquito.jpg"},
+    {"type":"file","name":"MG-num-266-helicoptero-motor-goma-1.jpg"},
+    {"type":"file","name":"MG-num-266-helicoptero-motor-goma-2.jpg"},
+    {"type":"file","name":"MG-num-266-helicoptero-motor-goma-3.jpg"},
+    {"type":"file","name":"MG-num-267-bimotor-goma-quiquito-1.jpg"},
+    {"type":"file","name":"MG-num-267-bimotor-goma-quiquito-2.jpg"},
+    {"type":"file","name":"MG-num-267-bimotor-goma-quiquito-3.jpg"},
     {"type":"file","name":"MG-num-270-pou-du-ciel.jpg"},
     {"type":"file","name":"MG-num-277-garza.jpg"},
     {"type":"file","name":"MG-num-282-nieuport-xvii-1.jpg"},
@@ -78,5 +85,5 @@
     {"type":"file","name":"MG-suple-78-avion-racer.jpg"}
   ]}
 ,
-  {"type":"report","directories":1,"files":76}
+  {"type":"report","directories":1,"files":83}
 ]

@@ -12,12 +12,15 @@
     {"type":"file","name":"MAQ-num-179-mig-15.jpg"},
     {"type":"file","name":"MAQ-num-186-bleriot-xi-1.jpg"},
     {"type":"file","name":"MAQ-num-186-bleriot-xi-2.jpg"},
-    {"type":"file","name":"MAQ-num-190-spitfire-mkii-1.jpg"},
-    {"type":"file","name":"MAQ-num-190-spitfire-mkii-2.jpg"},
+    {"type":"file","name":"MAQ-num-190-supermarine-spitfire-mkii-1.jpg"},
+    {"type":"file","name":"MAQ-num-190-supermarine-spitfire-mkii-2.jpg"},
+    {"type":"file","name":"MAQ-num-190-supermarine-spitfire-mkii-3.jpg"},
     {"type":"file","name":"MAQ-num-193-gloster-javelin-1.jpg"},
     {"type":"file","name":"MAQ-num-193-gloster-javelin-2.jpg"},
-    {"type":"file","name":"MAQ-num-197-plus-ultra-1.jpg"},
-    {"type":"file","name":"MAQ-num-197-plus-ultra-2.jpg"},
+    {"type":"file","name":"MAQ-num-193-gloster-javelin-3.jpg"},
+    {"type":"file","name":"MAQ-num-197-plus-ultra-dornier-wal-1.jpg"},
+    {"type":"file","name":"MAQ-num-197-plus-ultra-dornier-wal-2.jpg"},
+    {"type":"file","name":"MAQ-num-197-plus-ultra-dornier-wal-3.jpg"},
     {"type":"file","name":"MAQ-num-203-focke-wulf-fw44j-1.jpg"},
     {"type":"file","name":"MAQ-num-203-focke-wulf-fw44j-2.jpg"},
     {"type":"file","name":"MAQ-num-203-focke-wulf-fw44j-3.jpg"},
@@ -73,9 +76,12 @@
     {"type":"file","name":"MAQ-num-258-se5a-scouting-experimental-2.jpg"},
     {"type":"file","name":"MAQ-num-258-se5a-scouting-experimental-3.jpg"},
     {"type":"file","name":"MAQ-num-258-se5a-scouting-experimental-4.jpg"},
-    {"type":"file","name":"MAQ-num-263-ruedas-con-rayos.jpg"},
-    {"type":"file","name":"MAQ-num-264-ruedas-con-rayos.jpg"},
-    {"type":"file","name":"MAQ-num-282-emb312-tucano.jpg"},
+    {"type":"file","name":"MAQ-num-262-junkers-ju52-1.jpg"},
+    {"type":"file","name":"MAQ-num-262-junkers-ju52-2.jpg"},
+    {"type":"file","name":"MAQ-num-262-junkers-ju52-3.jpg"},
+    {"type":"file","name":"MAQ-num-265-canberra-mk62-1.jpg"},
+    {"type":"file","name":"MAQ-num-265-canberra-mk62-2.jpg"},
+    {"type":"file","name":"MAQ-num-265-canberra-mk62-3.jpg"},
     {"type":"file","name":"MAQ-num-283-saab-j35-draken.jpg"},
     {"type":"file","name":"MAQ-num-301-curtiss-p40-1.jpg"},
     {"type":"file","name":"MAQ-num-301-curtiss-p40-2.jpg"},
@@ -139,5 +145,5 @@
     {"type":"file","name":"MAQ-num-363-fokker-cv-ro1-3.jpg"}
   ]}
 ,
-  {"type":"report","directories":1,"files":137}
+  {"type":"report","directories":1,"files":143}
 ]

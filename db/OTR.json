@@ -1,9 +1,9 @@
 [
   {"type":"directory","name":".","contents":[
     {"type":"file","name":"OTR-num-101-trampa-caza-pecesitos.jpg"},
+    {"type":"file","name":"OTR-num-102-194-359-carrito-vara-1.jpg"},
+    {"type":"file","name":"OTR-num-102-194-359-carrito-vara-2.jpg"},
     {"type":"file","name":"OTR-num-102-apoyabici.jpg"},
-    {"type":"file","name":"OTR-num-102-carrito-vara-1.jpg"},
-    {"type":"file","name":"OTR-num-102-carrito-vara-2.jpg"},
     {"type":"file","name":"OTR-num-106-alambre-carril-1.jpg"},
     {"type":"file","name":"OTR-num-106-alambre-carril-2.jpg"},
     {"type":"file","name":"OTR-num-106-experimento-con-colores.jpg"},
@@ -16,6 +16,19 @@
     {"type":"file","name":"OTR-num-114-mini-magia-el-golpe-magico.jpg"},
     {"type":"file","name":"OTR-num-115-mini-magia-anillo-magico-simple-computadora.jpg"},
     {"type":"file","name":"OTR-num-154-303-tablita-patinadora.jpg"},
+    {"type":"file","name":"OTR-num-190-empalmadora-reparar-cintas-cassettes.jpg"},
+    {"type":"file","name":"OTR-num-191-arreglando-cassettes.jpg"},
+    {"type":"file","name":"OTR-num-192-cabezas-taponadas.jpg"},
+    {"type":"file","name":"OTR-num-194-302-midiendo-altura-barriletes.jpg"},
+    {"type":"file","name":"OTR-num-195-mirando-bajo-agua-1.jpg"},
+    {"type":"file","name":"OTR-num-195-mirando-bajo-agua-2.jpg"},
+    {"type":"file","name":"OTR-num-196-como-graba-cintas-magneticas-1.jpg"},
+    {"type":"file","name":"OTR-num-196-como-graba-cintas-magneticas-2.jpg"},
+    {"type":"file","name":"OTR-num-197-323-filtrando-agua.jpg"},
+    {"type":"file","name":"OTR-num-198-tecnicas-faciles-grabacion-1.jpg"},
+    {"type":"file","name":"OTR-num-198-tecnicas-faciles-grabacion-2.jpg"},
+    {"type":"file","name":"OTR-num-199-usos-grabador-1.jpg"},
+    {"type":"file","name":"OTR-num-199-usos-grabador-2.jpg"},
     {"type":"file","name":"OTR-num-212-comprando-calculadora.jpg"},
     {"type":"file","name":"OTR-num-212-que-aumento-tiene-lente.jpg"},
     {"type":"file","name":"OTR-num-213-chu-chuu-preparando-trencito.jpg"},
@@ -52,7 +65,6 @@
     {"type":"file","name":"OTR-num-254-dias-primaverales.jpg"},
     {"type":"file","name":"OTR-num-258-el-sol-fuente-energia-1.jpg"},
     {"type":"file","name":"OTR-num-258-el-sol-fuente-energia-2.jpg"},
-    {"type":"file","name":"OTR-num-302-midiendo-altura-barriletes.jpg"},
     {"type":"file","name":"OTR-num-312-preparandose-para-caerse.jpg"},
     {"type":"file","name":"OTR-num-313-portacaña.jpg"},
     {"type":"file","name":"OTR-num-313-tomates-desde-semillas-simple-reloj-arena.jpg"},
@@ -62,14 +74,11 @@
     {"type":"file","name":"OTR-num-322-imprimi-facilmente-tus-apuntes-2.jpg"},
     {"type":"file","name":"OTR-num-323-desperta-con-musica-1.jpg"},
     {"type":"file","name":"OTR-num-323-desperta-con-musica-2.jpg"},
-    {"type":"file","name":"OTR-num-323-filtrando-agua.jpg"},
     {"type":"file","name":"OTR-num-325-hablando-microscopios.jpg"},
     {"type":"file","name":"OTR-num-349-veletas-mangas-latitas-gaseosas-1.jpg"},
     {"type":"file","name":"OTR-num-349-veletas-mangas-latitas-gaseosas-2.jpg"},
     {"type":"file","name":"OTR-num-351-farolitos-navideños.jpg"},
     {"type":"file","name":"OTR-num-352-medisol-indicador-exposicion-solar.jpg"},
-    {"type":"file","name":"OTR-num-359-carrito-vara-1.jpg"},
-    {"type":"file","name":"OTR-num-359-carrito-vara-2.jpg"},
     {"type":"file","name":"OTR-num-359-lupita-pie.jpg"},
     {"type":"file","name":"OTR-num-360-proyecta-tus-historietas-1.jpg"},
     {"type":"file","name":"OTR-num-360-proyecta-tus-historietas-2.jpg"},
@@ -78,5 +87,5 @@
     {"type":"file","name":"OTR-num-362-encuaderna-la-revista-2.jpg"}
   ]}
 ,
-  {"type":"report","directories":1,"files":76}
+  {"type":"report","directories":1,"files":85}
 ]

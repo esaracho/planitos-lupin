@@ -20,7 +20,9 @@
     {"type":"file","name":"PL-num-254-taxi-espacial.jpg"},
     {"type":"file","name":"PL-num-259-avioncito-planeador-1.jpg"},
     {"type":"file","name":"PL-num-259-avioncito-planeador-2.jpg"},
-    {"type":"file","name":"PL-num-269-alicaido.jpg"},
+    {"type":"file","name":"PL-num-269-alicaido-avioncito-acrobatico-lanzado-mano-1.jpg"},
+    {"type":"file","name":"PL-num-269-alicaido-avioncito-acrobatico-lanzado-mano-2.jpg"},
+    {"type":"file","name":"PL-num-269-alicaido-avioncito-acrobatico-lanzado-mano-3.jpg"},
     {"type":"file","name":"PL-num-273-miniplaneador-para-interiores.jpg"},
     {"type":"file","name":"PL-num-278-canardnico.jpg"},
     {"type":"file","name":"PL-num-281-sapo.jpg"},
@@ -73,5 +75,5 @@
     {"type":"file","name":"PL-suple-83-jetstream-a1-2.jpg"}
   ]}
 ,
-  {"type":"report","directories":1,"files":71}
+  {"type":"report","directories":1,"files":73}
 ]

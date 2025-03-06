@@ -4,7 +4,8 @@
     {"type":"file","name":"TA-num-151-fabrica-tus-propias-helices-1.jpg"},
     {"type":"file","name":"TA-num-151-fabrica-tus-propias-helices-2.jpg"},
     {"type":"file","name":"TA-num-151-fabrica-tus-propias-helices-3.jpg"},
-    {"type":"file","name":"TA-num-196-preparando-maquetas.jpg"},
+    {"type":"file","name":"TA-num-196-preparando-maquetas-1.jpg"},
+    {"type":"file","name":"TA-num-196-preparando-maquetas-2.jpg"},
     {"type":"file","name":"TA-num-201-pintando-maquetas-1.jpg"},
     {"type":"file","name":"TA-num-201-pintando-maquetas-2.jpg"},
     {"type":"file","name":"TA-num-204-entelando-aeromodelos-1.jpg"},
@@ -23,6 +24,11 @@
     {"type":"file","name":"TA-num-219-partes-modelo.jpg"},
     {"type":"file","name":"TA-num-220-costillas-armando-ala-1.jpg"},
     {"type":"file","name":"TA-num-220-costillas-armando-ala-2.jpg"},
+    {"type":"file","name":"TA-num-263-rueda-rayos-primera-parte-1.jpg"},
+    {"type":"file","name":"TA-num-263-rueda-rayos-primera-parte-2.jpg"},
+    {"type":"file","name":"TA-num-264-rueda-rayos-segunda-parte-1.jpg"},
+    {"type":"file","name":"TA-num-264-rueda-rayos-segunda-parte-2.jpg"},
+    {"type":"file","name":"TA-num-264-rueda-rayos-segunda-parte-3.jpg"},
     {"type":"file","name":"TA-num-301-corta-varillas-1.jpg"},
     {"type":"file","name":"TA-num-301-corta-varillas-2.jpg"},
     {"type":"file","name":"TA-num-316-perfil-alar-caracteristicas-geometricas-1.jpg"},
@@ -38,5 +44,5 @@
     {"type":"file","name":"TA-num-362-sierra-balsa.jpg"}
   ]}
 ,
-  {"type":"report","directories":1,"files":36}
+  {"type":"report","directories":1,"files":42}
 ]

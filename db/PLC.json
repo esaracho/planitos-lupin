@@ -5,13 +5,8 @@
     {"type":"file","name":"PLC-num-314-pou-papier.jpg"},
     {"type":"file","name":"PLC-num-314-pou-papier-pulga-papel.jpg"},
     {"type":"file","name":"PLC-num-34-vuelalindo.jpg"},
-    {"type":"file","name":"PLC-num-365-aeroplano-lupin-1.jpg"},
-    {"type":"file","name":"PLC-num-365-aeroplano-lupin-2.jpg"},
-    {"type":"file","name":"PLC-num-365-aeroplano-lupin-5.jpg"},
     {"type":"file","name":"PLC-num-42-f5.jpg"},
     {"type":"file","name":"PLC-num-50-l2.jpg"},
-    {"type":"file","name":"PLC-num-52-aeroplano-de-lupin-1.jpg"},
-    {"type":"file","name":"PLC-num-52-aeroplano-de-lupin-2.jpg"},
     {"type":"file","name":"PLC-num-53-l3.jpg"},
     {"type":"file","name":"PLC-num-62-l4.jpg"},
     {"type":"file","name":"PLC-num-70-l71.jpg"},
@@ -20,5 +15,5 @@
     {"type":"file","name":"PLC-num-81-spitfire.jpg"}
   ]}
 ,
-  {"type":"report","directories":1,"files":18}
+  {"type":"report","directories":1,"files":13}
 ]

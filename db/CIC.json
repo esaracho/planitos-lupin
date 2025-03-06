@@ -3,6 +3,13 @@
     {"type":"file","name":"CIC-num-108-competencia-sobre-dos-ruedas-1.jpg"},
     {"type":"file","name":"CIC-num-108-competencia-sobre-dos-ruedas-2.jpg"},
     {"type":"file","name":"CIC-num-151-cuidado-rayos.jpg"},
+    {"type":"file","name":"CIC-num-192-vacaciones-bicicleta-rio-uruguay-primera-parte-1.jpg"},
+    {"type":"file","name":"CIC-num-192-vacaciones-bicicleta-rio-uruguay-primera-parte-2.jpg"},
+    {"type":"file","name":"CIC-num-193-vacaciones-bicicleta-rio-uruguay-segunda-parte-1.jpg"},
+    {"type":"file","name":"CIC-num-193-vacaciones-bicicleta-rio-uruguay-segunda-parte-2.jpg"},
+    {"type":"file","name":"CIC-num-194-363-dibujate-mapita.jpg"},
+    {"type":"file","name":"CIC-num-195-hace-lista-chequear-1.jpg"},
+    {"type":"file","name":"CIC-num-195-hace-lista-chequear-2.jpg"},
     {"type":"file","name":"CIC-num-203-limpiando-bici.jpg"},
     {"type":"file","name":"CIC-num-206-reparaciones-rapidas.jpg"},
     {"type":"file","name":"CIC-num-212-historia-bicicleta-segunda-parte-1.jpg"},
@@ -31,9 +38,8 @@
     {"type":"file","name":"CIC-num-315-tomemos-ejemplo-expertos.jpg"},
     {"type":"file","name":"CIC-num-321-bici-giros.jpg"},
     {"type":"file","name":"CIC-num-356-biciconsejos-para-salvar-pellejo.jpg"},
-    {"type":"file","name":"CIC-num-361-bici-test.jpg"},
-    {"type":"file","name":"CIC-num-363-dibujate-mapita.jpg"}
+    {"type":"file","name":"CIC-num-361-bici-test.jpg"}
   ]}
 ,
-  {"type":"report","directories":1,"files":33}
+  {"type":"report","directories":1,"files":39}
 ]
