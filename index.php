@@ -176,7 +176,7 @@ if($_GET) {
       <div class="border-top text-center">
         <p class="fs-6"><b>¿Problemas?</b> <a class="link-opacity-50-hover ms-1 link-dark" href="https://github.com/esaracho/planitos-lupin/issues" target="_blank">GitHub</a><a class="link-opacity-50-hover ms-2 link-dark" href="mailto:losplanitos@proton.me">eMail</a></p>
         <p class="fs-6">Algunos planitos fueron extraidos del blog <a class="link-opacity-50-hover ms-1 link-dark" href="https://losplanitosdelupin.wordpress.com/" target="_blank">Los planitos de Lúpin</a></p>
-        <p class="fs-6">Planitos incluidos en los números: 100-115 / 150-155 / 200-259 / 300-325 / 349-365 (Última actualización 02/25)</p>
+        <p class="fs-6">Planitos incluidos en los números: 100-115 / 150-155 / 190-269 / 300-325 / 349-365 (Última actualización 03/25)</p>
         <p class="fs-6">Dedicado con &#10084; a G.D.S. y a todos los que colaboraron con la "revistucha".</p>
         <img class="fondo" src="./fin.jpg">
       </div>
