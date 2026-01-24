@@ -16,6 +16,7 @@ You should have received a copy of the GNU General Public License along with thi
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="css/custom.css">
   <link rel="stylesheet" href="css/custom-lupin.css">
+  <link rel="stylesheet" href="css/group.css">
 </head>
 
 <body>
@@ -83,7 +84,7 @@ You should have received a copy of the GNU General Public License along with thi
 
 </details>  
 <!-- Resultados -->
-  <main class="px-3 pt-5 d-flex flex-column align-self-center">
+  <main class="px-3 d-flex flex-column align-self-center">
       
 <?php
 
@@ -153,9 +154,9 @@ function searchQuery($search, $file) : bool {
 if($_GET) {
 
   //Se guarda lo ingresado en la búsqueda(log)
-  $queryString = date(DATE_RFC1123) . " " . $_GET["query"] . "\n";
-  $logQueryFile = "/busquedas-log.txt";
-  file_put_contents(__DIR__ . $logQueryFile, $queryString , FILE_APPEND);
+  //$queryString = date(DATE_RFC1123) . " " . $_GET["query"] . "\n";
+  //$logQueryFile = "/busquedas-log.txt";
+  //file_put_contents(__DIR__ . $logQueryFile, $queryString , FILE_APPEND);
   
   $Paginador  = new Paginador( $_GET, $limit );
   $links = $Paginador->getData();

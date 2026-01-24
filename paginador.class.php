@@ -18,8 +18,25 @@ class Paginador {
         $this->_query = ( isset( $get['query'] ) ) ? $get['query'] : NULL;
         $this->_cat = ( isset( $get['cat'] ) ) ? $get['cat'] : NULL;
         $this->_start = ( $this->_page -1 ) * $this->_limit;
-        $this->_end = ( $this->_page * $this->_limit ) - 1;
+        $this->_end = ( $this->_page * $this->_limit );
     }
+
+
+    private function getTitle($file) {
+
+      //inicio del nombre del fichero
+      //$patterns[0] = '/[[:upper:]]+-num-[[:digit:]]+-/';
+      //fin del nombre del archivo
+      $patterns[0] = '/-?[[:digit:]]?.jpg/';
+      //$replacements[0] = '';
+      $replacements[0] = '';
+
+      return preg_replace($patterns, $replacements, $file);
+
+    }
+
+
+
 
     public function getData() {
         
@@ -31,43 +48,76 @@ class Paginador {
             $data = file_get_contents($path);
             $json = json_decode($data);
             $dir = [...$json[0]->contents];
-            
+            $results = [];
 
             if (is_null($this->_total)) {
 
+              $repeatsitself = $this->getTitle($dir[0]->name);
+               $count = 0;
+
               foreach ($dir as $file) {
                 
-                $thumbnail = str_replace([".jpg"], "-mini.jpg", $file->name);
-                $link = "<a class='linkimg mb-3 mx-auto' href='planitos/". $file->name ."' download><img class='img-thumbnail img-fluid mx-auto d-block' src='mini/". $thumbnail ."'><div class='overlay'><span>&darr;</span></div></a>";
-                $results[] = $link;
+                $fileTitle = $this->getTitle($file->name);
                 
+
+                if ( $fileTitle !== $repeatsitself ) {
+                  
+                  $results[] = "<div class='card mx-auto'>" . implode($group) . "</div>";
+                  $group = [];
+                  
+                }
+
+                $thumbnail = str_replace([".jpg"], "-mini.jpg", $file->name);
+                /* $link = "<a class='linkimg mb-3 mx-auto' href='planitos/". $file->name ."' download><img class='img-thumbnail img-fluid mx-auto d-block' src='mini/". $thumbnail ."'><div class='overlay'><span>&darr;</span></div></a>";
+                $results[] = $link; */
+                $group[] = "<img src='mini/" . $thumbnail . "' >";
+                $repeatsitself = $fileTitle;
+                ++$count;
+                
+                if ($count == sizeof($dir)) {
+
+                  $results[] = "<div class='card mx-auto'>" . implode($group) . "</div>";
+
+                }                
+
               }
 
               $this->_total = sizeof($results);
-
               return array_slice($results, $this->_start, $this->_limit);
 
            } else {
 
+              $repeatsitself = $this->getTitle($dir[0]->name);
               $count = 0;
 
               foreach ($dir as $file) {
+
+              $fileTitle = $this->getTitle($file->name);
+                
+
+              if ( $fileTitle !== $repeatsitself ) {
+                  
+                $results[] = "<div class='card mx-auto'>" . implode($group) . "</div>";
+                $group = [];
+                $count++;
+                
+                if ($count == $this->_end) {
+
+                  $results[] = "<div class='card mx-auto'>" . implode($group) . "</div>";
+                  return array_slice($results, $this->_start);
+
+                }
+              }
                 
               $thumbnail = str_replace([".jpg"], "-mini.jpg", $file->name);
-              $link = "<a class='linkimg mb-3 mx-auto' href='planitos/". $file->name ."' download><img class='img-thumbnail img-fluid mx-auto d-block' src='mini/". $thumbnail ."'><div class='overlay'><span>&darr;</span></div></a>";
-              $results[] = $link;
-              
-
-              if ($count == $this->_end) {
-
-                return array_slice($results, $this->_start);
-
-              }
-
-              $count++;
-
+              /* $link = "<a class='linkimg mb-3 mx-auto' href='planitos/". $file->name ."' download><img class='img-thumbnail img-fluid mx-auto d-block' src='mini/". $thumbnail ."'><div class='overlay'><span>&darr;</span></div></a>";
+              $results[] = $link; */
+              $group[] = "<img src='mini/" . $thumbnail . "' >";
+              $repeatsitself = $fileTitle;
+            
             }
-
+            
+            $results[] = "<div class='card mx-auto'>" . implode($group) . "</div>";
             return array_slice($results, $this->_start);
 
           }
