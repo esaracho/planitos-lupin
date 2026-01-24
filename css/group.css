@@ -1,0 +1,103 @@
+/*CCS cards*/
+
+/* css tricks*/
+
+.card {
+  --sc1: 0;
+  --sc2: 0;
+
+  /* factor of 3; also a harcoded number */
+  --sibling-count: calc(3 * var(--sc2) + var(--sc1));
+}
+
+
+.card img {
+  --si1: 0;
+  --si2: 0;
+
+  /* factor of 3; it's a harcoded number */
+  --sibling-index: calc(3 * var(--si2) + var(--si1));
+}
+
+.card img:nth-child(3n + 1) { 
+  --si1: 1; 
+  
+  .card:has(> &:last-child) {
+    --sc1: 1;
+  }
+}
+.card img:nth-child(3n + 2) {
+  --si1: 2; 
+  .card:has(> &:last-child) {
+    --sc1: 2;
+  }
+}
+
+.card img:nth-child(n + 3):nth-child(-n + 5) {
+  --si2: 1;
+  .card:has(> &:last-child) {
+    --sc2: 1;
+  }
+}
+.card img:nth-child(n + 6):nth-child(-n + 8) {
+  --si2: 2;
+  .card:has(> &:last-child) {
+    --sc2: 2;
+  }
+}
+
+/*------------------------------------------------------------*/
+
+.card {
+
+/* position: relative;
+width: 800px;
+height: 450px; */
+z-index: -9;
+/* border: 1px green solid; */
+margin-bottom: calc(var(--sibling-count) * -160px + 220px);
+
+}
+
+
+/* .card img {
+    position: absolute;
+    --x: calc(var(--sibling-index) * 20px);
+    left: var(--x);
+    left: var(--x);
+    transform: translateX(var(--x));
+    border: 1px gray solid;
+    z-index: calc(var(--sibling-index) * -1);
+    max-height: 450px;
+    max-width: 700px;
+}
+
+.card img:hover {
+    z-index: 1;
+    border: 1px purple solid;
+} */
+
+.card img {
+
+  position: relative;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  /* --index: calc(var(--sibling-index) -1); */
+  --y: calc(var(--sibling-index) * 160px);
+  bottom: var(--y);
+  z-index: calc(var(--sibling-index) * -1);
+  height: 550px;
+  border: 1px #ddd solid;
+
+  filter: drop-shadow(0px -10px 7px #aaa);
+  transition: transform 0.3s;
+}
+
+
+.card img:hover {
+
+  z-index: 1;
+  transform: scale(1.02);
+
+}
