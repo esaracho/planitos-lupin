@@ -11,7 +11,7 @@
 }
 
 
-.card img {
+.card .hijo {
   --si1: 0;
   --si2: 0;
 
@@ -19,27 +19,27 @@
   --sibling-index: calc(3 * var(--si2) + var(--si1));
 }
 
-.card img:nth-child(3n + 1) { 
+.card .hijo:nth-child(3n + 1) { 
   --si1: 1; 
   
   .card:has(> &:last-child) {
     --sc1: 1;
   }
 }
-.card img:nth-child(3n + 2) {
+.card .hijo:nth-child(3n + 2) {
   --si1: 2; 
   .card:has(> &:last-child) {
     --sc1: 2;
   }
 }
 
-.card img:nth-child(n + 3):nth-child(-n + 5) {
+.card .hijo:nth-child(n + 3):nth-child(-n + 5) {
   --si2: 1;
   .card:has(> &:last-child) {
     --sc2: 1;
   }
 }
-.card img:nth-child(n + 6):nth-child(-n + 8) {
+.card .hijo:nth-child(n + 6):nth-child(-n + 8) {
   --si2: 2;
   .card:has(> &:last-child) {
     --sc2: 2;
@@ -50,13 +50,12 @@
 
 .card {
 
-/* position: relative;
-width: 800px;
+/* position: relative; */
+/*width: 800px;
 height: 450px; */
 z-index: -9;
 /* border: 1px green solid; */
-margin-bottom: calc(var(--sibling-count) * -160px + 220px);
-
+margin-bottom: calc(var(--sibling-count) * -160px + 400px);
 }
 
 
@@ -87,7 +86,7 @@ margin-bottom: calc(var(--sibling-count) * -160px + 220px);
   --y: calc(var(--sibling-index) * 160px);
   bottom: var(--y);
   z-index: calc(var(--sibling-index) * -1);
-  height: 550px;
+  height: 500px;
   border: 1px #ddd solid;
 
   filter: drop-shadow(0px -10px 7px #aaa);
@@ -99,5 +98,23 @@ margin-bottom: calc(var(--sibling-count) * -160px + 220px);
 
   z-index: 1;
   transform: scale(1.02);
+
+}
+
+.card .dl {
+  display: block;
+  position: relative;
+  width: 100px;
+  height: 100px;
+  border-radius: 100%;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: black;
+  color: aliceblue;
+  /* --y: calc(var(--sibling-index) * 80px);
+  bottom: var(--y); */
+  --y: calc(var(--sibling-index) * 160px - 120px);
+  bottom: var(--y);
+  z-index: 10;
 
 }

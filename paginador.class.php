@@ -53,7 +53,7 @@ class Paginador {
             if (is_null($this->_total)) {
 
               $repeatsitself = $this->getTitle($dir[0]->name);
-               $count = 0;
+              $count = 0;
 
               foreach ($dir as $file) {
                 
@@ -62,7 +62,7 @@ class Paginador {
 
                 if ( $fileTitle !== $repeatsitself ) {
                   
-                  $results[] = "<div class='card mx-auto'>" . implode($group) . "</div>";
+                  $results[] = "<div class='card mx-auto'>" . implode($group) . "<button class='hijo dl'>descargar</button></div>";
                   $group = [];
                   
                 }
@@ -70,13 +70,13 @@ class Paginador {
                 $thumbnail = str_replace([".jpg"], "-mini.jpg", $file->name);
                 /* $link = "<a class='linkimg mb-3 mx-auto' href='planitos/". $file->name ."' download><img class='img-thumbnail img-fluid mx-auto d-block' src='mini/". $thumbnail ."'><div class='overlay'><span>&darr;</span></div></a>";
                 $results[] = $link; */
-                $group[] = "<img src='mini/" . $thumbnail . "' >";
+                $group[] = "<img class='hijo' src='mini/" . $thumbnail . "' >";
                 $repeatsitself = $fileTitle;
                 ++$count;
                 
                 if ($count == sizeof($dir)) {
 
-                  $results[] = "<div class='card mx-auto'>" . implode($group) . "</div>";
+                  $results[] = "<div class='card mx-auto'>" . implode($group) . "<button class='hijo dl'>descargar</button></div>";
 
                 }                
 
@@ -97,13 +97,13 @@ class Paginador {
 
               if ( $fileTitle !== $repeatsitself ) {
                   
-                $results[] = "<div class='card mx-auto'>" . implode($group) . "</div>";
+                $results[] = "<div class='card mx-auto'>" . implode($group) . "<button class='hijo dl'>descargar</button></div>";
                 $group = [];
                 $count++;
                 
                 if ($count == $this->_end) {
 
-                  $results[] = "<div class='card mx-auto'>" . implode($group) . "</div>";
+                  //$results[] = "<div class='card mx-auto'>" . implode($group) . "<button class='hijo dl'>descargar</button></div>";
                   return array_slice($results, $this->_start);
 
                 }
@@ -112,37 +112,66 @@ class Paginador {
               $thumbnail = str_replace([".jpg"], "-mini.jpg", $file->name);
               /* $link = "<a class='linkimg mb-3 mx-auto' href='planitos/". $file->name ."' download><img class='img-thumbnail img-fluid mx-auto d-block' src='mini/". $thumbnail ."'><div class='overlay'><span>&darr;</span></div></a>";
               $results[] = $link; */
-              $group[] = "<img src='mini/" . $thumbnail . "' >";
+              $group[] = "<img class='hijo' src='mini/" . $thumbnail . "' >";
               $repeatsitself = $fileTitle;
             
             }
             
-            $results[] = "<div class='card mx-auto'>" . implode($group) . "</div>";
+            $results[] = "<div class='card mx-auto'>" . implode($group) . "<button class='hijo dl'>descargar</button></div>";
             return array_slice($results, $this->_start);
 
           }
           
           //Busqueda por palabras
           } elseif (!empty($this->_query)) {
-        
+
+
               $search = getQuery($this->_query);
               $data = file_get_contents("db/ALL.json");
               $json = json_decode($data);
               $dir = [...$json[0]->contents];
               $noResults = true;
+              //$repeatsitself = $this->getTitle($dir[0]->name);
+              $count = 0;
 
               if (is_null($this->_total)) {
 
                 
               
                 foreach ($dir as $file) {
+
+                
         
                 if (searchQuery($search, $file)) {
                   
-                  $noResults = false;
+                  if ($noResults){
+                    $noResults = false;
+                    $repeatsitself = $this->getTitle($file->name);
+                  }
+                  
+                  $fileTitle = $this->getTitle($file->name);
+                  //$noResults = false;
+                                  
+                  
+                  if ( $fileTitle !== $repeatsitself ) {
+                  
+                  $results[] = "<div class='card mx-auto'>" . implode($group) . "<button class='hijo dl'>descargar</button></div>";
+                  $group = [];
+                  
+                  }
                   $thumbnail = str_replace([".jpg"], "-mini.jpg", $file->name);
-                  $link = "<a class='linkimg mb-3 mx-auto' href='planitos/". $file->name ."' download><img class='img-thumbnail img-fluid mx-auto d-block' src='mini/". $thumbnail ."'><div class='overlay'><span>&darr;</span></div></a>";
-                  $results[] = $link;
+                  /* $link = "<a class='linkimg mb-3 mx-auto' href='planitos/". $file->name ."' download><img class='img-thumbnail img-fluid mx-auto d-block' src='mini/". $thumbnail ."'><div class='overlay'><span>&darr;</span></div></a>"; */
+                  /* $results[] = $link; */
+                  $group[] = "<img class='hijo' src='mini/" . $thumbnail . "' >";
+                  $repeatsitself = $fileTitle;
+
+                }
+
+                ++$count;
+
+                if ($count == sizeof($dir) && !$noResults) {
+
+                  $results[] = "<div class='card mx-auto'>" . implode($group) . "<button class='hijo dl'>descargar</button></div>";
 
                 }
 
@@ -154,10 +183,12 @@ class Paginador {
                 $results[] = '<p class="text-center">No hay resultados  :(</p>';
                 return $results;
               
-              }
+              } else {
 
-              $this->_total = sizeof($results);
-              return array_slice($results, $this->_start, $this->_limit);
+                $this->_total = sizeof($results);
+                return array_slice($results, $this->_start, $this->_limit);
+
+              }
 
 
           } else {
