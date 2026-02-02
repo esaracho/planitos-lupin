@@ -131,7 +131,6 @@ class Paginador {
               $json = json_decode($data);
               $dir = [...$json[0]->contents];
               $noResults = true;
-              //$repeatsitself = $this->getTitle($dir[0]->name);
               $count = 0;
 
               if (is_null($this->_total)) {
@@ -149,9 +148,7 @@ class Paginador {
                     $repeatsitself = $this->getTitle($file->name);
                   }
                   
-                  $fileTitle = $this->getTitle($file->name);
-                  //$noResults = false;
-                                  
+                  $fileTitle = $this->getTitle($file->name);                                  
                   
                   if ( $fileTitle !== $repeatsitself ) {
                   
@@ -194,28 +191,48 @@ class Paginador {
           } else {
               
               $count = 0;
+              $noResults = true;
 
               foreach ($dir as $file) {
+
                 
+        
                 if (searchQuery($search, $file)) {
                   
-                  $thumbnail = str_replace([".jpg"], "-mini.jpg", $file->name);
-                  $link = "<a class='linkimg mb-3 mx-auto' href='planitos/". $file->name ."' download><img class='img-thumbnail img-fluid mx-auto d-block' src='mini/". $thumbnail ."'><div class='overlay'><span>&darr;</span></div></a>";
-                  $results[] = $link;
-                  
-                  if ($count == $this->_end) {
-                    
-                    return array_slice($results, $this->_start);
-    
+                  if ($noResults){
+                    $noResults = false;
+                    $repeatsitself = $this->getTitle($file->name);
                   }
-                
-                  $count++;
+                  
+                  $fileTitle = $this->getTitle($file->name);                                  
+                  
+                  if ( $fileTitle !== $repeatsitself ) {
+                  
+                  $results[] = "<div class='card mx-auto'>" . implode($group) . "<button class='hijo dl'>descargar</button></div>";
+                  $group = [];
+                  ++$count;
+
+                  if ($count == $this->_end) {
+
+                  //$results[] = "<div class='card mx-auto'>" . implode($group) . "<button class='hijo dl'>descargar</button></div>";
+                  return array_slice($results, $this->_start);
+
+                  }
+                  
+                  }
+                  $thumbnail = str_replace([".jpg"], "-mini.jpg", $file->name);
+                  /* $link = "<a class='linkimg mb-3 mx-auto' href='planitos/". $file->name ."' download><img class='img-thumbnail img-fluid mx-auto d-block' src='mini/". $thumbnail ."'><div class='overlay'><span>&darr;</span></div></a>"; */
+                  /* $results[] = $link; */
+                  $group[] = "<img class='hijo' src='mini/" . $thumbnail . "' >";
+                  $repeatsitself = $fileTitle;
 
                 }
 
               }
+              
+              $results[] = "<div class='card mx-auto'>" . implode($group) . "<button class='hijo dl'>descargar</button></div>";
+              return array_slice($results, $this->_start, $this->_limit);
 
-              return array_slice($results, $this->_start);
     
           }
      }
