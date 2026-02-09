@@ -1,5 +1,7 @@
 <?php
 
+
+
 class Paginador {
 
     private $_limit;
@@ -27,7 +29,7 @@ class Paginador {
       //inicio del nombre del fichero
       //$patterns[0] = '/[[:upper:]]+-num-[[:digit:]]+-/';
       //fin del nombre del archivo
-      $patterns[0] = '/-?[[:digit:]]?.jpg/';
+      $patterns[0] = '/(-[[:digit:]])?.jpg/';
       //$replacements[0] = '';
       $replacements[0] = '';
 
@@ -62,7 +64,8 @@ class Paginador {
 
                 if ( $fileTitle !== $repeatsitself ) {
                   
-                  $results[] = "<div class='card mx-auto'>" . implode($group) . "<button class='hijo dl'>descargar</button></div>";
+                  $results[] = "<div class='card mx-auto'>" . implode($group) . "<button class='hijo dl' type='submit' form='descarga' name='files' value='" . implode(",", $files) . "'>descargar</button></div>";
+                  $files = [];
                   $group = [];
                   
                 }
@@ -70,14 +73,15 @@ class Paginador {
                 $thumbnail = str_replace([".jpg"], "-mini.jpg", $file->name);
                 /* $link = "<a class='linkimg mb-3 mx-auto' href='planitos/". $file->name ."' download><img class='img-thumbnail img-fluid mx-auto d-block' src='mini/". $thumbnail ."'><div class='overlay'><span>&darr;</span></div></a>";
                 $results[] = $link; */
+                $files[]=$file->name;
                 $group[] = "<img class='hijo' src='mini/" . $thumbnail . "' >";
                 $repeatsitself = $fileTitle;
                 ++$count;
                 
                 if ($count == sizeof($dir)) {
 
-                  $results[] = "<div class='card mx-auto'>" . implode($group) . "<button class='hijo dl'>descargar</button></div>";
-
+                  $results[] = "<div class='card mx-auto'>" . implode($group) . "<button class='hijo dl' type='submit' form='descarga' name='files' value='" . implode(",", $files) . "'>descargar</button></div>";
+                  
                 }                
 
               }
@@ -97,7 +101,8 @@ class Paginador {
 
               if ( $fileTitle !== $repeatsitself ) {
                   
-                $results[] = "<div class='card mx-auto'>" . implode($group) . "<button class='hijo dl'>descargar</button></div>";
+                $results[] = "<div class='card mx-auto'>" . implode($group) . "<button class='hijo dl' type='submit' form='descarga' name='files' value='" . implode(",", $files) . "'>descargar</button></div>";
+                $files = [];
                 $group = [];
                 $count++;
                 
@@ -112,12 +117,13 @@ class Paginador {
               $thumbnail = str_replace([".jpg"], "-mini.jpg", $file->name);
               /* $link = "<a class='linkimg mb-3 mx-auto' href='planitos/". $file->name ."' download><img class='img-thumbnail img-fluid mx-auto d-block' src='mini/". $thumbnail ."'><div class='overlay'><span>&darr;</span></div></a>";
               $results[] = $link; */
+              $files[]=$file->name;
               $group[] = "<img class='hijo' src='mini/" . $thumbnail . "' >";
               $repeatsitself = $fileTitle;
             
             }
             
-            $results[] = "<div class='card mx-auto'>" . implode($group) . "<button class='hijo dl'>descargar</button></div>";
+            $results[] = "<div class='card mx-auto'>" . implode($group) . "<button class='hijo dl' type='submit' form='descarga' name='files' value='" . implode(",", $files) . "'>descargar</button></div>";
             return array_slice($results, $this->_start);
 
           }
@@ -152,13 +158,15 @@ class Paginador {
                   
                   if ( $fileTitle !== $repeatsitself ) {
                   
-                  $results[] = "<div class='card mx-auto'>" . implode($group) . "<button class='hijo dl'>descargar</button></div>";
+                  $results[] = "<div class='card mx-auto'>" . implode($group) . "<button class='hijo dl' type='submit' form='descarga' name='files' value='" . implode(",", $files) . "'>descargar</button></div>";
+                  $files = [];
                   $group = [];
                   
                   }
                   $thumbnail = str_replace([".jpg"], "-mini.jpg", $file->name);
                   /* $link = "<a class='linkimg mb-3 mx-auto' href='planitos/". $file->name ."' download><img class='img-thumbnail img-fluid mx-auto d-block' src='mini/". $thumbnail ."'><div class='overlay'><span>&darr;</span></div></a>"; */
                   /* $results[] = $link; */
+                  $files[]=$file->name;
                   $group[] = "<img class='hijo' src='mini/" . $thumbnail . "' >";
                   $repeatsitself = $fileTitle;
 
@@ -168,7 +176,7 @@ class Paginador {
 
                 if ($count == sizeof($dir) && !$noResults) {
 
-                  $results[] = "<div class='card mx-auto'>" . implode($group) . "<button class='hijo dl'>descargar</button></div>";
+                  $results[] = "<div class='card mx-auto'>" . implode($group) . "<button class='hijo dl' type='submit' form='descarga' name='files' value='" . implode(",", $files) . "'>descargar</button></div>";
 
                 }
 
@@ -208,7 +216,8 @@ class Paginador {
                   
                   if ( $fileTitle !== $repeatsitself ) {
                   
-                  $results[] = "<div class='card mx-auto'>" . implode($group) . "<button class='hijo dl'>descargar</button></div>";
+                  $results[] = "<div class='card mx-auto'>" . implode($group) . "<button class='hijo dl' type='submit' form='descarga' name='files' value='" . implode(",", $files) . "'>descargar</button></div>";
+                  $files = [];
                   $group = [];
                   ++$count;
 
@@ -223,6 +232,7 @@ class Paginador {
                   $thumbnail = str_replace([".jpg"], "-mini.jpg", $file->name);
                   /* $link = "<a class='linkimg mb-3 mx-auto' href='planitos/". $file->name ."' download><img class='img-thumbnail img-fluid mx-auto d-block' src='mini/". $thumbnail ."'><div class='overlay'><span>&darr;</span></div></a>"; */
                   /* $results[] = $link; */
+                  $files[]=$file->name;
                   $group[] = "<img class='hijo' src='mini/" . $thumbnail . "' >";
                   $repeatsitself = $fileTitle;
 
@@ -230,7 +240,7 @@ class Paginador {
 
               }
               
-              $results[] = "<div class='card mx-auto'>" . implode($group) . "<button class='hijo dl'>descargar</button></div>";
+              $results[] = "<div class='card mx-auto'>" . implode($group) . "<button class='hijo dl' type='submit' form='descarga' name='files' value='" . implode(",", $files) . "'>descargar</button></div>";
               return array_slice($results, $this->_start, $this->_limit);
 
     

@@ -48,6 +48,9 @@ You should have received a copy of the GNU General Public License along with thi
     </form>
   </search>
 
+
+  <form action="descarga_pdf.php" method="POST" id="descarga" target="_blank"></form>
+
 <!-- Categorías -->
 <details>
 <summary>Categorías</summary>
