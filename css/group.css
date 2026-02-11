@@ -1,6 +1,6 @@
 /*CCS cards*/
 
-/* css tricks*/
+/* css tricks  https://css-tricks.com/how-to-wait-for-the-sibling-count-and-sibling-index-functions */
 
 .card {
   --sc1: 0;
@@ -127,6 +127,7 @@ margin-bottom: calc(var(--sibling-count) * -160px + 400px);
   /* background-color: #d17539; */
 }
 
+/* https://github.com/innowatio/iwwa-icons */
 
 .dl-icon {
   display: block;
