@@ -64,7 +64,7 @@ class Paginador {
 
                 if ( $fileTitle !== $repeatsitself ) {
                   
-                  $results[] = "<div class='card mx-auto'>" . implode($group) . "<button class='hijo dl' type='submit' form='descarga' name='files' value='" . implode(",", $files) . "'>descargar</button></div>";
+                  $results[] = "<div class='card mx-auto'>" . implode($group) . "<button class='hijo dl' type='submit' form='descarga' name='files' value='" . implode(",", $files) . "'><span class='dl-icon'></span></button></div>";
                   $files = [];
                   $group = [];
                   
@@ -80,7 +80,7 @@ class Paginador {
                 
                 if ($count == sizeof($dir)) {
 
-                  $results[] = "<div class='card mx-auto'>" . implode($group) . "<button class='hijo dl' type='submit' form='descarga' name='files' value='" . implode(",", $files) . "'>descargar</button></div>";
+                  $results[] = "<div class='card mx-auto'>" . implode($group) . "<button class='hijo dl' type='submit' form='descarga' name='files' value='" . implode(",", $files) . "'><span class='dl-icon'></span></button></div>";
                   
                 }                
 
@@ -101,7 +101,7 @@ class Paginador {
 
               if ( $fileTitle !== $repeatsitself ) {
                   
-                $results[] = "<div class='card mx-auto'>" . implode($group) . "<button class='hijo dl' type='submit' form='descarga' name='files' value='" . implode(",", $files) . "'>descargar</button></div>";
+                $results[] = "<div class='card mx-auto'>" . implode($group) . "<button class='hijo dl' type='submit' form='descarga' name='files' value='" . implode(",", $files) . "'><span class='dl-icon'></span></button></div>";
                 $files = [];
                 $group = [];
                 $count++;
@@ -123,7 +123,7 @@ class Paginador {
             
             }
             
-            $results[] = "<div class='card mx-auto'>" . implode($group) . "<button class='hijo dl' type='submit' form='descarga' name='files' value='" . implode(",", $files) . "'>descargar</button></div>";
+            $results[] = "<div class='card mx-auto'>" . implode($group) . "<button class='hijo dl' type='submit' form='descarga' name='files' value='" . implode(",", $files) . "'><span class='dl-icon'></span></button></div>";
             return array_slice($results, $this->_start);
 
           }
@@ -158,7 +158,7 @@ class Paginador {
                   
                   if ( $fileTitle !== $repeatsitself ) {
                   
-                  $results[] = "<div class='card mx-auto'>" . implode($group) . "<button class='hijo dl' type='submit' form='descarga' name='files' value='" . implode(",", $files) . "'>descargar</button></div>";
+                  $results[] = "<div class='card mx-auto'>" . implode($group) . "<button class='hijo dl' type='submit' form='descarga' name='files' value='" . implode(",", $files) . "'><span class='dl-icon'></span></button></div>";
                   $files = [];
                   $group = [];
                   
@@ -176,7 +176,7 @@ class Paginador {
 
                 if ($count == sizeof($dir) && !$noResults) {
 
-                  $results[] = "<div class='card mx-auto'>" . implode($group) . "<button class='hijo dl' type='submit' form='descarga' name='files' value='" . implode(",", $files) . "'>descargar</button></div>";
+                  $results[] = "<div class='card mx-auto'>" . implode($group) . "<button class='hijo dl' type='submit' form='descarga' name='files' value='" . implode(",", $files) . "'><span class='dl-icon'></span></button></div>";
 
                 }
 
@@ -216,7 +216,7 @@ class Paginador {
                   
                   if ( $fileTitle !== $repeatsitself ) {
                   
-                  $results[] = "<div class='card mx-auto'>" . implode($group) . "<button class='hijo dl' type='submit' form='descarga' name='files' value='" . implode(",", $files) . "'>descargar</button></div>";
+                  $results[] = "<div class='card mx-auto'>" . implode($group) . "<button class='hijo dl' type='submit' form='descarga' name='files' value='" . implode(",", $files) . "'><span class='dl-icon'></span></button></div>";
                   $files = [];
                   $group = [];
                   ++$count;
@@ -240,7 +240,7 @@ class Paginador {
 
               }
               
-              $results[] = "<div class='card mx-auto'>" . implode($group) . "<button class='hijo dl' type='submit' form='descarga' name='files' value='" . implode(",", $files) . "'>descargar</button></div>";
+              $results[] = "<div class='card mx-auto'>" . implode($group) . "<button class='hijo dl' type='submit' form='descarga' name='files' value='" . implode(",", $files) . "'><span class='dl-icon'></span></button></div>";
               return array_slice($results, $this->_start, $this->_limit);
 
     
