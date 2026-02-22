@@ -88,7 +88,7 @@ details[open] summary::marker {
     top: 0%;
     left: 0%;
     z-index: -10;
-    padding-top: 200px;
+    padding-top: 100px;
 }
 
 /*Estilos del overlay*/
@@ -141,8 +141,9 @@ details[open] summary::marker {
 /*estilos paginador*/
 
 .paginador {
-
-    margin-top: 5vh;
+    position: relative;
+    bottom: 60px;
+    /* margin-top: 5vh; */
     display: flex;
     flex-direction: row;
     justify-content: center;
@@ -209,15 +210,31 @@ footer div {
     #tira {
         width: 275px;
     }
+
+       main {
+
+        padding-top: 150px;
+
+    }
+
+    .paginador {
+        bottom: 100px;
+    }
   
   }
   
   /* Monitor a partir de 1441px */
   
-  @media screen and (min-width: 1200px) {
+  @media screen and (min-width: 1080px) {
   
     #tira {
         width: 300px;
     }
   
+    main {
+
+        padding-top: 250px;
+
+    }
+
   }

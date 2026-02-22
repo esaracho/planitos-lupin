@@ -1,7 +1,8 @@
 <?php
 
 //require_once 'lib/fpdf.php';
-require('lib/rotation.php');
+require($_SERVER['DOCUMENT_ROOT'].'/lib/rotation.php');
+
 
 class PDF extends PDF_Rotate {
 
@@ -27,7 +28,7 @@ $pdf->SetFont('Arial','B',16);
 
 foreach ($images as $file) {
 
-    $dirImg = '/var/www/html/planitos/' . $file;
+    $dirImg = $_SERVER['DOCUMENT_ROOT'] . '/planitos/' . $file;
     $pdf->AddPage();
     //$pdf->Image($dirImg, 10, 10, 0, 150);
     $pdf->RotatedImage($dirImg,180,10,0,150,-90);
@@ -35,4 +36,5 @@ foreach ($images as $file) {
 }
 
 $pdf->Output('I', $fileName, true);
+
 ?>
