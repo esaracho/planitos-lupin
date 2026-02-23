@@ -17,6 +17,7 @@ You should have received a copy of the GNU General Public License along with thi
   <link rel="stylesheet" href="css/custom.css">
   <link rel="stylesheet" href="css/custom-lupin.css">
   <link rel="stylesheet" href="css/group.css">
+  <script src="script.js"></script>
 </head>
 
 <body>
@@ -85,10 +86,15 @@ You should have received a copy of the GNU General Public License along with thi
   </form>
   </div>
 
-</details>  
+</details>
+  <!-- Pantalla de carga -->
+  <div class="loading-screen" aria-label="Loading...">
+    <div class="spinner"></div> <!-- Spinner -->
+  </div>
+
 <!-- Resultados -->
   <main class="px-3 d-flex flex-column align-self-center">
-      
+
 <?php
 
 require_once 'paginador.class.php';
