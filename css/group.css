@@ -50,31 +50,10 @@
 
 .card {
 
-/* position: relative; */
-/*width: 800px;
-height: 450px; */
-z-index: -9;
-/* border: 1px green solid; */
-margin-bottom: calc(var(--sibling-count) * -68px + 170px);
+  z-index: -9;
+  margin-bottom: calc(var(--sibling-count) * -68px + 170px);
+
 }
-
-
-/* .card img {
-    position: absolute;
-    --x: calc(var(--sibling-index) * 20px);
-    left: var(--x);
-    left: var(--x);
-    transform: translateX(var(--x));
-    border: 1px gray solid;
-    z-index: calc(var(--sibling-index) * -1);
-    max-height: 450px;
-    max-width: 700px;
-}
-
-.card img:hover {
-    z-index: 1;
-    border: 1px purple solid;
-} */
 
 .card img {
 
@@ -82,14 +61,12 @@ margin-bottom: calc(var(--sibling-count) * -68px + 170px);
   display: block;
   margin-left: auto;
   margin-right: auto;
-  /* --index: calc(var(--sibling-index) -1); */
   --y: calc(var(--sibling-index) * 68px);
   bottom: var(--y);
   z-index: calc(var(--sibling-index) * -1);
- /*  height: 60vw; */
   width: 100%;
   border: 1px #ddd solid;
-  filter: drop-shadow(0px -10px 7px #aaa);
+  box-shadow: 0px 0px 10px #000;
   transition: transform 0.3s;
 }
 
@@ -113,8 +90,6 @@ margin-bottom: calc(var(--sibling-count) * -68px + 170px);
   color: aliceblue;
   border: 2px solid;
   border-color: #000;
-  /* --y: calc(var(--sibling-index) * 80px);
-  bottom: var(--y); */
   --y: calc(var(--sibling-index) * 68px - 40px);
   bottom: var(--y);
   z-index: 10;
@@ -123,13 +98,15 @@ margin-bottom: calc(var(--sibling-count) * -68px + 170px);
 }
 
 .card .dl:hover {
+
   border-color: #dcecf3;
-  /* background-color: #d17539; */
+
 }
 
 /* https://github.com/innowatio/iwwa-icons */
 
 .dl-icon {
+
   display: block;
   margin-left: auto;
   margin-right: auto;
@@ -145,6 +122,7 @@ margin-bottom: calc(var(--sibling-count) * -68px + 170px);
   -webkit-mask-size: 100% 100%;
   mask-size: 100% 100%;
   transition: color 0.3s;
+
 }
 
 .card .dl:hover .dl-icon {
