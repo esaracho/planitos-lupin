@@ -35,6 +35,11 @@ foreach ($images as $file) {
 
 }
 
+//Log descargas
+//$DLString = date(DATE_RFC1123) . " " . $fileName . "\n";
+//$logDLFile = "/descargas-log.txt";
+//file_put_contents(__DIR__ . $logDLFile, $DLString , FILE_APPEND);
+
 $pdf->Output('I', $fileName, true);
 
 ?>
