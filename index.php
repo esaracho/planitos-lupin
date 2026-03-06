@@ -101,64 +101,6 @@ require_once 'paginador.class.php';
 //Límite de resultados por página
 $limit = 10;
 
-function getQuery($q) : string {
-
-  $input = preg_replace("/[^a-z0-9\'\&]+/i", " ", $q);
-  $inputa = explode(' ', $input);
-
-  /* if (strlen($input) > 3 ) { */
-
-    if (count($inputa) > 1) {
-
-      $s1 = "";
-
-      foreach ($inputa as $word) {
-
-        
-        $s1 .= "[[:print:]]*" . $word;
-
-      }
-
-      $s = "/" . $s1 . "/iu";
-      
-      return $s;
-
-    } else {
-
-      return "/". $inputa[0] . "/iu";
-
-    }
-    
- /*  } else {
-  
-    $s = "/^\b". $input . "\b/i";
-    return $s;
-  
-  }*/
-}
-
-function getName($n) : string {
-  
-  $name = str_replace([".jpg"], "", $n);
-  /*  = str_replace(".", " ", $rmext); */
-  return $name;
-
-}
-
-function searchQuery($search, $file) : bool {
-
-  $plan = getName($file->name);
-
-  if (preg_match($search, $plan)) {
-
-    return true;
-
-  } 
-
-  return false;
-
-}
-
 if($_GET) {
 
   //Se guarda lo ingresado en la búsqueda(log)

@@ -24,20 +24,77 @@ class Paginador {
     }
 
 
-    private function getTitle($file) {
+  private function getTitle($file) {
 
-      //inicio del nombre del fichero
-      //$patterns[0] = '/[[:upper:]]+-num-[[:digit:]]+-/';
-      //fin del nombre del archivo
-      $patterns[0] = '/(-[[:digit:]])?.jpg/';
-      //$replacements[0] = '';
-      $replacements[0] = '';
+    //inicio del nombre del fichero
+    //$patterns[0] = '/[[:upper:]]+-num-[[:digit:]]+-/';
+    //fin del nombre del archivo
+    $patterns[0] = '/(-[[:digit:]])?.jpg/';
+    //$replacements[0] = '';
+    $replacements[0] = '';
 
-      return preg_replace($patterns, $replacements, $file);
+    return preg_replace($patterns, $replacements, $file);
+
+  }
+
+
+  private function getQuery($q) : string {
+
+  $input = preg_replace("/[^a-z0-9\'\&]+/i", " ", $q);
+  $inputa = explode(' ', $input);
+
+  /* if (strlen($input) > 3 ) { */
+
+    if (count($inputa) > 1) {
+
+      $s1 = "";
+
+      foreach ($inputa as $word) {
+
+        
+        $s1 .= "[[:print:]]*" . $word;
+
+      }
+
+      $s = "/" . $s1 . "/iu";
+      
+      return $s;
+
+    } else {
+
+      return "/". $inputa[0] . "/iu";
 
     }
+    
+ /*  } else {
+  
+    $s = "/^\b". $input . "\b/i";
+    return $s;
+  
+  }*/
+  }
 
+  private function getName($n) : string {
+  
+    $name = str_replace([".jpg"], "", $n);
+    /*  = str_replace(".", " ", $rmext); */
+    return $name;
 
+}
+
+  private function searchQuery($search, $file) : bool {
+
+    $plan = $this->getName($file->name);
+
+      if (preg_match($search, $plan)) {
+
+        return true;
+
+      }
+
+        return false;
+
+  }
 
 
     public function getData() {
@@ -132,7 +189,7 @@ class Paginador {
           } elseif (!empty($this->_query)) {
 
 
-              $search = getQuery($this->_query);
+              $search = $this->getQuery($this->_query);
               $data = file_get_contents("db/ALL.json");
               $json = json_decode($data);
               $dir = [...$json[0]->contents];
@@ -147,7 +204,7 @@ class Paginador {
 
                 
         
-                if (searchQuery($search, $file)) {
+                if ($this->searchQuery($search, $file)) {
                   
                   if ($noResults){
                     $noResults = false;
@@ -205,7 +262,7 @@ class Paginador {
 
                 
         
-                if (searchQuery($search, $file)) {
+                if ($this->searchQuery($search, $file)) {
                   
                   if ($noResults){
                     $noResults = false;
