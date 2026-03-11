@@ -41,8 +41,7 @@ You should have received a copy of the GNU General Public License along with thi
   <search class="px-3 pt-5">
     <form name="formlink" method="GET" class="form-inline" action="index.php" id="busqueda">
       <div class="input-group">
-        <input type="text" class="form-control" name="query" placeholder="Buscar planito" required autofocus>
-        <!-- <input class="btn btn-dark" type="submit" value="&hearts;"> -->
+        <input type="text" class="form-control" name="query" placeholder="Buscar planito" pattern="[a-zA-Z0-9]+[a-zA-Z0-9\s]*" title="Ingrese la búsqueda" required autofocus>
          <button type="submit" class="btn btn-dark"><div>&#9906;</div></button>
       </div>
     </form>
